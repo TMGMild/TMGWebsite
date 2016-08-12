@@ -1,7 +1,7 @@
 <?php
 
 require 'common.php';
-
+//test
 $query = "SELECT * FROM news ORDER BY `date` DESC LIMIT 4";
 $articles = fetchAll($query);
 
