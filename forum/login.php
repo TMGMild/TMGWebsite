@@ -1,0 +1,5 @@
+<?php
+
+redirect("../login.php");
+
+?>

@@ -1,0 +1,5 @@
+<?php
+
+redirect("../registeruser.php");
+
+?>

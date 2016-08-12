@@ -1,0 +1,2 @@
+[21-Jul-2016 15:39:13] PHP Fatal error:  Call to undefined function  fetchall() in /home5/truemin1/public_html/modules/module_casters.php on line 11
+[21-Jul-2016 15:39:43] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'common.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/truemin1/public_html/modules/module_casters.php on line 5

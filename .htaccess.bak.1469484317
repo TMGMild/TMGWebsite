@@ -1,0 +1,5 @@
+# Use PHP5.4 Single php.ini as default
+AddHandler application/x-httpd-php54s .php
+AddHandler application/x-httpd-php56 .php
+
+ErrorDocument 404 /login.php

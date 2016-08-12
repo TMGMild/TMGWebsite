@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>500 Server Error - True Minded Gaming</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body style="background-color:#222222;">
+		<div class="wrapper">
+		<div class="content">
+		<h1>Error 500 - Server Error</h1>
+		<hr>
+		Sorry -- this was an error on our side. Please wait a few minutes and try again. If this error persists, contact Mild. <a href="index.php">Click here</a> to return home.
+		</div>
+		</div>
+	</body>
+</html>
+
+<!-- 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+--> 

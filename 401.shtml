@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>401 Authorization Required - True Minded Gaming</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body style="background-color:#222222;">
+		<div class="wrapper">
+		<div class="content">
+		<h1>Error 401 - Authorization Required</h1>
+		<hr>
+		<a href="login.php">Click here</a> to sign in.
+		</div>
+		</div>
+	</body>
+</html>
+
+<!-- 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+--> 

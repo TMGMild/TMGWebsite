@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>403 Forbidden - True Minded Gaming</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body style="background-color:#222222;">
+		<div class="wrapper">
+		<div class="content">
+		<h1>Error 403 - Forbidden</h1>
+		<hr>
+		Your request was forbidden. <a href="index.php">Click here</a> to return home. If this error persists, please contact Mild.
+		</div>
+		</div>
+	</body>
+</html>
+
+<!-- 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+--> 

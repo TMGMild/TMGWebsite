@@ -1,0 +1,1129 @@
+[20-Jul-2016 18:53:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home5/truemin1/public_html/registeruser.php:33) in /home5/truemin1/public_html/common.php on line 219
+[20-Jul-2016 18:53:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home5/truemin1/public_html/registeruser.php:33) in /home5/truemin1/public_html/common.php on line 219
+[20-Jul-2016 21:28:15] PHP Notice:  Undefined index:  caster in /home5/truemin1/public_html/common.php on line 353
+[20-Jul-2016 21:28:30] PHP Notice:  Undefined index:  caster in /home5/truemin1/public_html/common.php on line 353
+[20-Jul-2016 21:28:31] PHP Notice:  Undefined index:  caster in /home5/truemin1/public_html/common.php on line 353
+[20-Jul-2016 21:28:34] PHP Notice:  Undefined index:  caster in /home5/truemin1/public_html/common.php on line 353
+[20-Jul-2016 21:33:39] PHP Notice:  Undefined index:  caster in /home5/truemin1/public_html/common.php on line 353
+[20-Jul-2016 21:34:44] PHP Notice:  Undefined index:  caster in /home5/truemin1/public_html/common.php on line 353
+[21-Jul-2016 15:24:10] PHP Notice:  Undefined index:  caster in /home5/truemin1/public_html/common.php on line 353
+[21-Jul-2016 15:41:18] PHP Notice:  Undefined index:  casterID in /home5/truemin1/public_html/casterRequest.php on line 10
+[21-Jul-2016 15:41:18] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home5/truemin1/public_html/casterRequest.php on line 10
+[21-Jul-2016 15:41:48] PHP Notice:  Undefined index:  casterID in /home5/truemin1/public_html/casterRequest.php on line 10
+[21-Jul-2016 15:41:48] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home5/truemin1/public_html/casterRequest.php on line 10
+[21-Jul-2016 15:41:48] PHP Notice:  Undefined index:  casterID in /home5/truemin1/public_html/casterRequest.php on line 10
+[21-Jul-2016 15:41:48] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home5/truemin1/public_html/casterRequest.php on line 10
+[21-Jul-2016 15:41:48] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home5/truemin1/public_html/casterRequest.php:10) in /home5/truemin1/public_html/common.php on line 218
+[21-Jul-2016 15:54:47] PHP Notice:  Undefined variable: slot in /home5/truemin1/public_html/casterRequest.php on line 25
+[21-Jul-2016 17:01:10] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 16
+[21-Jul-2016 17:03:27] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 17
+[21-Jul-2016 17:03:49] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 18
+[21-Jul-2016 17:04:55] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 17
+[21-Jul-2016 17:08:28] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 17
+[21-Jul-2016 17:08:56] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 17
+[21-Jul-2016 17:10:35] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 17
+[21-Jul-2016 17:12:12] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 17
+[21-Jul-2016 17:13:44] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 17
+[21-Jul-2016 17:14:18] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 17
+[21-Jul-2016 17:20:13] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 17
+[21-Jul-2016 17:20:18] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 17
+[21-Jul-2016 17:20:24] PHP Notice:  Undefined index:  id in /home5/truemin1/public_html/modules/manage/module_chooseCasters.php on line 17
+[21-Jul-2016 17:55:30] PHP Fatal error:  Call to undefined function  redirect() in /home5/truemin1/public_html/chooseCasters.php on line 20
+[21-Jul-2016 17:58:53] PHP Fatal error:  Call to undefined function  execute() in /home5/truemin1/public_html/chooseCasters.php on line 21
+[21-Jul-2016 17:59:15] PHP Fatal error:  Call to undefined function  execute() in /home5/truemin1/public_html/chooseCasters.php on line 21
+[21-Jul-2016 17:59:40] PHP Fatal error:  Call to undefined function  redirect() in /home5/truemin1/public_html/chooseCasters.php on line 8
+[21-Jul-2016 17:59:54] PHP Fatal error:  Call to undefined function  redirect() in /home5/truemin1/public_html/chooseCasters.php on line 5
+[21-Jul-2016 18:00:35] PHP Fatal error:  Call to undefined function  redirect() in /home5/truemin1/public_html/chooseCasters.php on line 3
+[21-Jul-2016 18:01:02] PHP Notice:  Undefined index:  1a in /home5/truemin1/public_html/chooseCasters.php on line 20
+[21-Jul-2016 18:01:02] PHP Notice:  Undefined index:  1b in /home5/truemin1/public_html/chooseCasters.php on line 36
+[21-Jul-2016 18:01:02] PHP Notice:  Undefined index:  2a in /home5/truemin1/public_html/chooseCasters.php on line 20
+[21-Jul-2016 18:01:02] PHP Notice:  Undefined index:  2b in /home5/truemin1/public_html/chooseCasters.php on line 36
+[21-Jul-2016 18:01:02] PHP Notice:  Undefined index:  3a in /home5/truemin1/public_html/chooseCasters.php on line 20
+[21-Jul-2016 18:01:02] PHP Notice:  Undefined index:  3b in /home5/truemin1/public_html/chooseCasters.php on line 36
+[21-Jul-2016 18:05:22] PHP Notice:  Undefined index:  1a in /home5/truemin1/public_html/chooseCasters.php on line 20
+[21-Jul-2016 18:05:22] PHP Notice:  Undefined index:  1b in /home5/truemin1/public_html/chooseCasters.php on line 36
+[21-Jul-2016 18:05:22] PHP Notice:  Undefined index:  2a in /home5/truemin1/public_html/chooseCasters.php on line 20
+[21-Jul-2016 18:05:22] PHP Notice:  Undefined index:  2b in /home5/truemin1/public_html/chooseCasters.php on line 36
+[21-Jul-2016 18:05:22] PHP Notice:  Undefined index:  3a in /home5/truemin1/public_html/chooseCasters.php on line 20
+[21-Jul-2016 18:05:22] PHP Notice:  Undefined index:  3b in /home5/truemin1/public_html/chooseCasters.php on line 36
+[21-Jul-2016 18:43:47] PHP Notice:  Undefined variable: slots in /home5/truemin1/public_html/modules/module_casters.php on line 50
+[21-Jul-2016 18:45:12] PHP Notice:  Undefined variable: slots in /home5/truemin1/public_html/modules/module_casters.php on line 50
+[21-Jul-2016 18:59:03] PHP Fatal error:  Call to a member function log() on a non-object in /home5/truemin1/public_html/login.php on line 2
+[21-Jul-2016 18:59:09] PHP Fatal error:  Call to a member function log() on a non-object in /home5/truemin1/public_html/login.php on line 2
+[21-Jul-2016 18:59:24] PHP Warning:  require_once(FirePHPCore/FirePHP.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home5/truemin1/public_html/login.php on line 2
+[21-Jul-2016 18:59:24] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'FirePHPCore/FirePHP.class.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/truemin1/public_html/login.php on line 2
+[21-Jul-2016 18:59:28] PHP Warning:  require_once(FirePHPCore/FirePHP.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home5/truemin1/public_html/login.php on line 2
+[21-Jul-2016 18:59:28] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'FirePHPCore/FirePHP.class.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/truemin1/public_html/login.php on line 2
+[21-Jul-2016 22:00:07] PHP Notice:  Undefined variable: user in /home5/truemin1/public_html/forgotpassword.php on line 21
+[21-Jul-2016 22:40:11] PHP Fatal error:  Call to undefined function  loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[21-Jul-2016 22:41:47] PHP Notice:  Undefined index:  caster in /home5/truemin1/public_html/common.php on line 353
+[22-Jul-2016 10:20:22] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/schedule.php on line 53
+[22-Jul-2016 10:20:28] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/schedule.php on line 53
+[22-Jul-2016 17:30:17] PHP Notice:  Undefined index:  d in /home5/truemin1/public_html/modules/dashboard/module_standings.php on line 30
+[22-Jul-2016 17:30:32] PHP Notice:  Undefined index:  d in /home5/truemin1/public_html/modules/dashboard/module_standings.php on line 30
+[22-Jul-2016 18:12:08] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/team.php on line 27
+[22-Jul-2016 18:12:09] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/team.php on line 27
+[22-Jul-2016 20:26:59] PHP Notice:  Undefined index:  d in /home5/truemin1/public_html/modules/dashboard/module_standings.php on line 30
+[22-Jul-2016 21:22:21] PHP Notice:  Undefined index:  d in /home5/truemin1/public_html/modules/dashboard/module_standings.php on line 30
+[22-Jul-2016 21:22:31] PHP Notice:  Undefined index:  d in /home5/truemin1/public_html/modules/dashboard/module_standings.php on line 30
+[22-Jul-2016 21:23:31] PHP Notice:  Undefined index:  d in /home5/truemin1/public_html/modules/dashboard/module_standings.php on line 30
+[22-Jul-2016 22:17:13] PHP Notice:  Undefined index:  d in /home5/truemin1/public_html/modules/dashboard/module_standings.php on line 30
+[22-Jul-2016 22:32:05] PHP Notice:  Undefined index:  d in /home5/truemin1/public_html/modules/dashboard/module_standings.php on line 30
+[23-Jul-2016 22:44:33] PHP Parse error:  syntax error, unexpected ')' in /home5/truemin1/public_html/index.php on line 22
+[23-Jul-2016 22:44:36] PHP Parse error:  syntax error, unexpected ')' in /home5/truemin1/public_html/index.php on line 22
+[25-Jul-2016 00:09:21 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[25-Jul-2016 10:19:00 America/Denver] PHP Notice:  Undefined index: thumbnail in /home5/truemin1/public_html/write.php on line 49
+[25-Jul-2016 10:19:12 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[25-Jul-2016 10:19:22 America/Denver] PHP Notice:  Undefined index: thumbnail in /home5/truemin1/public_html/write.php on line 49
+[25-Jul-2016 10:22:05 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[25-Jul-2016 10:22:46 America/Denver] PHP Notice:  Undefined index: thumbnail in /home5/truemin1/public_html/write.php on line 49
+[25-Jul-2016 10:22:46 America/Denver] PHP Notice:  Undefined variable: target_file in /home5/truemin1/public_html/write.php on line 66
+[25-Jul-2016 10:32:57 America/Denver] PHP Notice:  Undefined index: thumbnail in /home5/truemin1/public_html/write.php on line 50
+[25-Jul-2016 10:32:57 America/Denver] PHP Notice:  Undefined variable: target_file in /home5/truemin1/public_html/write.php on line 67
+[25-Jul-2016 10:33:09 America/Denver] PHP Notice:  Undefined index: thumbnail in /home5/truemin1/public_html/write.php on line 50
+[25-Jul-2016 10:33:09 America/Denver] PHP Notice:  Undefined variable: target_file in /home5/truemin1/public_html/write.php on line 67
+[25-Jul-2016 10:33:21 America/Denver] PHP Notice:  Undefined index: thumbnail in /home5/truemin1/public_html/write.php on line 50
+[25-Jul-2016 10:33:21 America/Denver] PHP Notice:  Undefined variable: target_file in /home5/truemin1/public_html/write.php on line 67
+[25-Jul-2016 10:37:35 America/Denver] PHP Notice:  Undefined index: thumbnail in /home5/truemin1/public_html/write.php on line 42
+[25-Jul-2016 10:37:35 America/Denver] PHP Notice:  Undefined variable: target_file in /home5/truemin1/public_html/write.php on line 59
+[25-Jul-2016 10:46:41 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[25-Jul-2016 10:48:21 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[25-Jul-2016 12:37:53 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[25-Jul-2016 13:43:53 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[25-Jul-2016 15:06:04 America/Denver] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:04 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:04 America/Denver] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:04 America/Denver] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:04 America/Denver] PHP Warning:  PHP Startup: OAuth: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:04 America/Denver] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:04 America/Denver] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:04 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:04 America/Denver] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home5/truemin1/public_html/common.php on line 11
+[25-Jul-2016 15:06:16 America/Denver] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:16 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:16 America/Denver] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:16 America/Denver] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:16 America/Denver] PHP Warning:  PHP Startup: OAuth: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:16 America/Denver] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:16 America/Denver] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:16 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:16 America/Denver] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home5/truemin1/public_html/common.php on line 11
+[25-Jul-2016 15:06:22 America/Denver] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:22 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:22 America/Denver] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:22 America/Denver] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:22 America/Denver] PHP Warning:  PHP Startup: OAuth: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:22 America/Denver] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:22 America/Denver] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:22 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:06:22 America/Denver] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home5/truemin1/public_html/common.php on line 11
+[25-Jul-2016 15:07:31 America/Denver] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:07:31 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:07:31 America/Denver] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:07:31 America/Denver] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:07:31 America/Denver] PHP Warning:  PHP Startup: OAuth: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:07:31 America/Denver] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:07:31 America/Denver] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:07:31 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:07:31 America/Denver] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home5/truemin1/public_html/common.php on line 11
+[25-Jul-2016 15:12:24 America/Denver] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:12:24 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:12:24 America/Denver] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:12:24 America/Denver] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:12:24 America/Denver] PHP Warning:  PHP Startup: OAuth: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:12:24 America/Denver] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:12:24 America/Denver] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:12:24 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 15:12:25 America/Denver] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home5/truemin1/public_html/common.php on line 11
+[25-Jul-2016 15:56:50 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[25-Jul-2016 16:05:26 America/Denver] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:05:26 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:05:26 America/Denver] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:05:26 America/Denver] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:05:26 America/Denver] PHP Warning:  PHP Startup: OAuth: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:05:26 America/Denver] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:05:26 America/Denver] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:05:26 America/Denver] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home5/truemin1/public_html/common.php on line 11
+[25-Jul-2016 16:09:54 America/Denver] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:09:54 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:09:54 America/Denver] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:09:54 America/Denver] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:09:54 America/Denver] PHP Warning:  PHP Startup: OAuth: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:09:54 America/Denver] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:09:54 America/Denver] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:09:54 America/Denver] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home5/truemin1/public_html/common.php on line 11
+[25-Jul-2016 16:10:31 America/Denver] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:31 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:31 America/Denver] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:31 America/Denver] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:31 America/Denver] PHP Warning:  PHP Startup: OAuth: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:31 America/Denver] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:31 America/Denver] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:31 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/pdo.so' - /usr/php/54/usr/lib64/php/modules/pdo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:10:31 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/54/usr/lib64/php/modules/pdo_mysql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:10:31 America/Denver] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home5/truemin1/public_html/common.php on line 11
+[25-Jul-2016 16:10:35 America/Denver] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:35 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:35 America/Denver] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:35 America/Denver] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:35 America/Denver] PHP Warning:  PHP Startup: OAuth: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:35 America/Denver] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:35 America/Denver] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:10:35 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/pdo.so' - /usr/php/54/usr/lib64/php/modules/pdo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:10:35 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/54/usr/lib64/php/modules/pdo_mysql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:10:35 America/Denver] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home5/truemin1/public_html/common.php on line 11
+[25-Jul-2016 16:12:51 America/Denver] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:12:51 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:12:51 America/Denver] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:12:51 America/Denver] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:12:51 America/Denver] PHP Warning:  PHP Startup: OAuth: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:12:51 America/Denver] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:12:51 America/Denver] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:12:51 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/php_pdo.dll' - /usr/php/54/usr/lib64/php/modules/php_pdo.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:12:51 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/php_pdo_mysql.dll' - /usr/php/54/usr/lib64/php/modules/php_pdo_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:12:51 America/Denver] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home5/truemin1/public_html/common.php on line 11
+[25-Jul-2016 16:15:04 America/Denver] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:04 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:04 America/Denver] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:04 America/Denver] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:04 America/Denver] PHP Warning:  PHP Startup: OAuth: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:04 America/Denver] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:04 America/Denver] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:04 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/php_pdo.dll' - /usr/php/54/usr/lib64/php/modules/php_pdo.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:15:04 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/php_pdo_mysql.dll' - /usr/php/54/usr/lib64/php/modules/php_pdo_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:15:04 America/Denver] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home5/truemin1/public_html/common.php on line 11
+[25-Jul-2016 16:15:26 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/php_pdo_mysql.dll' - /usr/php/54/usr/lib64/php/modules/php_pdo_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:15:26 America/Denver] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:26 America/Denver] PHP Warning:  PHP Startup: http: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:26 America/Denver] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:26 America/Denver] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:26 America/Denver] PHP Warning:  PHP Startup: OAuth: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:26 America/Denver] PHP Warning:  PHP Startup: oci8: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:26 America/Denver] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[25-Jul-2016 16:15:26 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/php_pdo.dll' - /usr/php/54/usr/lib64/php/modules/php_pdo.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:15:26 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/php_pdo_mysql.dll' - /usr/php/54/usr/lib64/php/modules/php_pdo_mysql.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:15:26 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/pdo.so' - /usr/php/54/usr/lib64/php/modules/pdo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:15:26 America/Denver] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/54/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/54/usr/lib64/php/modules/pdo_mysql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[25-Jul-2016 16:15:26 America/Denver] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /home5/truemin1/public_html/common.php on line 11
+[25-Jul-2016 17:25:28 America/Denver] PHP Notice:  Undefined variable: text in /home5/truemin1/public_html/write.php on line 121
+[25-Jul-2016 18:19:09 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[26-Jul-2016 10:26:56 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[26-Jul-2016 10:27:16 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[26-Jul-2016 10:28:20 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[26-Jul-2016 15:21:20 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[26-Jul-2016 15:26:53 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[26-Jul-2016 18:39:54 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[26-Jul-2016 18:49:26 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[26-Jul-2016 20:43:37 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[26-Jul-2016 20:44:32 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 02:16:10 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 02:19:13 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 03:18:49 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 08:38:55 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 10:01:15 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 13:33:21 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 13:47:49 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 15:00:33 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:00:33 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:02:21 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:02:21 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:02:35 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:02:35 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:06:01 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:06:01 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:06:28 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:06:28 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:06:44 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:06:44 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:11:46 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:11:46 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:15:13 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:15:13 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:18:22 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:18:22 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:19:08 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:19:08 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:19:35 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:19:35 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:20:31 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:20:31 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:20:49 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:20:49 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:22:12 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:22:12 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:22:34 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:22:34 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 21
+[27-Jul-2016 15:24:32 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 15:24:32 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 15:25:25 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 15:25:25 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 15:26:53 America/Denver] PHP Warning:  include(season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 15:26:53 America/Denver] PHP Warning:  include(): Failed opening 'season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 17:26:28 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 18:03:46 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 18:10:20 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 18:10:22 America/Denver] PHP Warning:  include(about/season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:10:22 America/Denver] PHP Warning:  include(): Failed opening 'about/season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:10:26 America/Denver] PHP Warning:  include(about/season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:10:26 America/Denver] PHP Warning:  include(): Failed opening 'about/season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:10:26 America/Denver] PHP Warning:  include(about/rules.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:10:26 America/Denver] PHP Warning:  include(): Failed opening 'about/rules.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:10:26 America/Denver] PHP Warning:  include(about/schedule.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:10:26 America/Denver] PHP Warning:  include(): Failed opening 'about/schedule.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:10:27 America/Denver] PHP Warning:  include(about/staff.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:10:27 America/Denver] PHP Warning:  include(): Failed opening 'about/staff.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:51:59 America/Denver] PHP Warning:  include(about/season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:51:59 America/Denver] PHP Warning:  include(): Failed opening 'about/season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:52:58 America/Denver] PHP Warning:  include(about/season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:52:58 America/Denver] PHP Warning:  include(): Failed opening 'about/season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:53:02 America/Denver] PHP Warning:  include(about/staff.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:53:02 America/Denver] PHP Warning:  include(): Failed opening 'about/staff.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:53:15 America/Denver] PHP Warning:  include(about/staff.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 18:53:15 America/Denver] PHP Warning:  include(): Failed opening 'about/staff.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[27-Jul-2016 22:21:39 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 22:57:51 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[27-Jul-2016 23:07:03 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 06:06:07 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 06:28:25 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 06:34:35 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 06:58:37 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 08:55:45 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 08:57:17 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 10:58:55 America/Denver] PHP Warning:  include(about/staff.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[28-Jul-2016 10:58:55 America/Denver] PHP Warning:  include(): Failed opening 'about/staff.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[28-Jul-2016 14:13:06 America/Denver] PHP Warning:  include(about/staff.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[28-Jul-2016 14:13:06 America/Denver] PHP Warning:  include(): Failed opening 'about/staff.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[28-Jul-2016 17:38:47 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 17:45:02 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 18:04:34 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 18:15:31 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 18:15:34 America/Denver] PHP Warning:  include(about/season.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[28-Jul-2016 18:15:34 America/Denver] PHP Warning:  include(): Failed opening 'about/season.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[28-Jul-2016 18:15:34 America/Denver] PHP Warning:  include(about/rules.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 18
+[28-Jul-2016 18:15:34 America/Denver] PHP Warning:  include(): Failed opening 'about/rules.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 18
+[28-Jul-2016 18:53:29 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 19:04:59 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 19:40:40 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[28-Jul-2016 21:36:27 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[29-Jul-2016 05:27:11 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[29-Jul-2016 18:10:38 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[29-Jul-2016 18:33:13 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[29-Jul-2016 18:57:45 America/Denver] PHP Warning:  include(about/schedule.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 19
+[29-Jul-2016 18:57:46 America/Denver] PHP Warning:  include(): Failed opening 'about/schedule.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 19
+[30-Jul-2016 12:25:23 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[30-Jul-2016 14:56:46 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[30-Jul-2016 14:56:47 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[30-Jul-2016 15:49:47 America/Denver] PHP Warning:  include(about/rules.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/about.php on line 19
+[30-Jul-2016 15:49:47 America/Denver] PHP Warning:  include(): Failed opening 'about/rules.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/about.php on line 19
+[30-Jul-2016 17:10:24 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[30-Jul-2016 17:10:24 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[30-Jul-2016 18:11:40 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[30-Jul-2016 20:44:11 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[30-Jul-2016 20:44:12 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[30-Jul-2016 23:43:15 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[30-Jul-2016 23:43:15 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 00:43:50 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 02:54:19 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 02:54:20 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 04:23:31 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 04:29:49 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 04:35:31 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 04:38:32 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 04:49:01 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 04:56:31 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 05:00:07 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 05:04:20 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 05:15:43 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 05:18:07 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 05:24:07 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 05:30:26 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 05:33:25 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 05:44:49 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 06:28:27 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 06:32:13 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 09:04:23 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 09:32:05 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 18:15:15 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 23:03:59 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 23:11:43 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[31-Jul-2016 23:26:23 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[01-Aug-2016 03:06:55 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[01-Aug-2016 11:29:37 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[01-Aug-2016 11:30:06 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[01-Aug-2016 11:36:23 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[01-Aug-2016 11:46:04 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[01-Aug-2016 11:46:10 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[01-Aug-2016 13:10:18 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[01-Aug-2016 13:10:39 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[01-Aug-2016 16:15:50 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[01-Aug-2016 18:47:47 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[01-Aug-2016 22:27:52 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[02-Aug-2016 02:12:36 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[02-Aug-2016 11:14:45 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[02-Aug-2016 11:31:49 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[02-Aug-2016 11:32:51 America/Denver] PHP Notice:  Undefined variable: date in /home5/truemin1/public_html/apply.php on line 11
+[02-Aug-2016 11:33:18 America/Denver] PHP Notice:  Undefined variable: date in /home5/truemin1/public_html/apply.php on line 11
+[02-Aug-2016 11:38:39 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[02-Aug-2016 11:40:23 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[02-Aug-2016 14:57:34 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[02-Aug-2016 14:57:34 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[02-Aug-2016 16:12:37 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[02-Aug-2016 18:30:21 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[02-Aug-2016 21:09:22 America/Denver] PHP Notice:  Undefined index: role in /home5/truemin1/public_html/application.php on line 27
+[02-Aug-2016 21:12:39 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[02-Aug-2016 21:18:36 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[02-Aug-2016 21:19:14 America/Denver] PHP Notice:  Undefined variable: newTeamName in /home5/truemin1/public_html/updateteams.php on line 29
+[02-Aug-2016 21:19:19 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[02-Aug-2016 21:21:34 America/Denver] PHP Notice:  Undefined variable: newTeamName in /home5/truemin1/public_html/updateteams.php on line 39
+[02-Aug-2016 21:22:01 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[02-Aug-2016 21:22:55 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[03-Aug-2016 02:51:46 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[03-Aug-2016 06:28:30 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[03-Aug-2016 07:34:23 America/Denver] PHP Notice:  Undefined variable: uponeid in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:34:23 America/Denver] PHP Notice:  Undefined variable: uponename in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:34:59 America/Denver] PHP Notice:  Undefined variable: uponeid in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:34:59 America/Denver] PHP Notice:  Undefined variable: uponename in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:35:40 America/Denver] PHP Notice:  Undefined variable: uponeid in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:35:40 America/Denver] PHP Notice:  Undefined variable: uponename in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:36:07 America/Denver] PHP Notice:  Undefined variable: uponeid in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:36:07 America/Denver] PHP Notice:  Undefined variable: uponename in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:36:20 America/Denver] PHP Notice:  Undefined variable: uponeid in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:36:20 America/Denver] PHP Notice:  Undefined variable: uponename in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:36:32 America/Denver] PHP Notice:  Undefined variable: uponeid in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:36:32 America/Denver] PHP Notice:  Undefined variable: uponename in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:36:47 America/Denver] PHP Notice:  Undefined variable: uponeid in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:36:47 America/Denver] PHP Notice:  Undefined variable: uponename in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:37:05 America/Denver] PHP Notice:  Undefined variable: uponeid in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:37:05 America/Denver] PHP Notice:  Undefined variable: uponename in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:44:26 America/Denver] PHP Notice:  Undefined variable: uponeid in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:44:26 America/Denver] PHP Notice:  Undefined variable: uponename in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:44:41 America/Denver] PHP Notice:  Undefined variable: uponeid in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 07:44:41 America/Denver] PHP Notice:  Undefined variable: uponename in /home5/truemin1/public_html/editcategories.php on line 30
+[03-Aug-2016 12:05:11 America/Denver] PHP Notice:  Undefined index: desc in /home5/truemin1/public_html/modifycategory.php on line 7
+[03-Aug-2016 12:05:26 America/Denver] PHP Notice:  Undefined index: desc in /home5/truemin1/public_html/modifycategory.php on line 7
+[03-Aug-2016 12:27:31 America/Denver] PHP Warning:  Missing argument 2 for get(), called in /home5/truemin1/public_html/addcategory.php on line 4 and defined in /home5/truemin1/public_html/common.php on line 222
+[03-Aug-2016 12:39:06 America/Denver] PHP Notice:  Undefined variable: parentid_ in /home5/truemin1/public_html/addcategory.php on line 16
+[03-Aug-2016 13:05:02 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[03-Aug-2016 16:41:24 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[03-Aug-2016 19:42:40 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[04-Aug-2016 09:11:02 America/Denver] PHP Notice:  Undefined index: msg in /home5/truemin1/public_html/report.php on line 9
+[04-Aug-2016 09:11:19 America/Denver] PHP Notice:  Undefined index: msg in /home5/truemin1/public_html/report.php on line 9
+[04-Aug-2016 09:12:08 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[04-Aug-2016 13:07:58 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[04-Aug-2016 13:20:18 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[04-Aug-2016 13:20:18 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[04-Aug-2016 13:24:44 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[04-Aug-2016 13:25:33 America/Denver] PHP Notice:  Undefined index: msg in /home5/truemin1/public_html/reports.php on line 38
+[04-Aug-2016 13:42:45 America/Denver] PHP Notice:  Undefined variable: row in /home5/truemin1/public_html/reports.php on line 50
+[04-Aug-2016 13:42:58 America/Denver] PHP Notice:  Undefined variable: row in /home5/truemin1/public_html/reports.php on line 50
+[04-Aug-2016 13:43:36 America/Denver] PHP Notice:  Undefined variable: row in /home5/truemin1/public_html/reports.php on line 50
+[04-Aug-2016 13:43:59 America/Denver] PHP Notice:  Undefined variable: row in /home5/truemin1/public_html/reports.php on line 50
+[04-Aug-2016 14:06:29 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/common.php on line 550
+[04-Aug-2016 14:14:01 America/Denver] PHP Notice:  Undefined variable: commentid in /home5/truemin1/public_html/common.php on line 515
+[04-Aug-2016 14:14:01 America/Denver] PHP Notice:  Undefined variable: postid in /home5/truemin1/public_html/common.php on line 529
+[04-Aug-2016 14:14:01 America/Denver] PHP Notice:  Undefined variable: commentid in /home5/truemin1/public_html/common.php on line 534
+[04-Aug-2016 14:14:35 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[04-Aug-2016 14:14:50 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[04-Aug-2016 14:57:45 America/Denver] PHP Notice:  Undefined variable: suspensionpage in /home5/truemin1/public_html/common.php on line 50
+[04-Aug-2016 16:15:51 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[04-Aug-2016 18:45:10 America/Denver] PHP Parse error:  syntax error, unexpected '<' in /home5/truemin1/public_html/suspended.php on line 58
+[04-Aug-2016 18:45:13 America/Denver] PHP Parse error:  syntax error, unexpected '<' in /home5/truemin1/public_html/suspended.php on line 58
+[04-Aug-2016 20:12:49 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[04-Aug-2016 21:35:55 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[04-Aug-2016 23:08:13 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[05-Aug-2016 07:30:21 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[05-Aug-2016 09:38:19 America/Denver] PHP Notice:  Undefined index: name in /home5/truemin1/public_html/updateteams.php on line 16
+[05-Aug-2016 09:39:17 America/Denver] PHP Notice:  Undefined index: name in /home5/truemin1/public_html/updateteams.php on line 16
+[05-Aug-2016 13:37:39 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[05-Aug-2016 13:43:40 America/Denver] PHP Notice:  Undefined variable: functionName in /home5/truemin1/public_html/functions.php on line 8
+[05-Aug-2016 13:43:40 America/Denver] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, no array or string given in /home5/truemin1/public_html/functions.php on line 8
+[05-Aug-2016 13:44:50 America/Denver] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function ''getHighestTeamId'' not found or invalid function name in /home5/truemin1/public_html/functions.php on line 8
+[05-Aug-2016 13:45:12 America/Denver] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function ''getHighestTeamId'' not found or invalid function name in /home5/truemin1/public_html/functions.php on line 15
+[05-Aug-2016 13:46:10 America/Denver] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function ''getHighestTeamId'' not found or invalid function name in /home5/truemin1/public_html/functions.php on line 15
+[05-Aug-2016 13:49:51 America/Denver] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function ''getHighestTeamId'' not found or invalid function name in /home5/truemin1/public_html/functions.php on line 15
+[05-Aug-2016 13:50:23 America/Denver] PHP Fatal error:  Call to undefined function 'getHighestTeamId'() in /home5/truemin1/public_html/functions.php on line 15
+[05-Aug-2016 20:08:07 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[05-Aug-2016 22:07:05 America/Denver] PHP Notice:  Undefined variable: q in /home5/truemin1/public_html/userpanel.php on line 10
+[05-Aug-2016 22:07:07 America/Denver] PHP Notice:  Undefined variable: q in /home5/truemin1/public_html/userpanel.php on line 10
+[05-Aug-2016 22:07:08 America/Denver] PHP Notice:  Undefined variable: q in /home5/truemin1/public_html/userpanel.php on line 10
+[05-Aug-2016 22:07:08 America/Denver] PHP Notice:  Undefined variable: q in /home5/truemin1/public_html/userpanel.php on line 10
+[05-Aug-2016 22:07:10 America/Denver] PHP Notice:  Undefined variable: q in /home5/truemin1/public_html/userpanel.php on line 10
+[05-Aug-2016 22:07:11 America/Denver] PHP Notice:  Undefined variable: q in /home5/truemin1/public_html/userpanel.php on line 10
+[05-Aug-2016 22:52:04 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/userpanel.php on line 36
+[05-Aug-2016 22:52:06 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/userpanel.php on line 36
+[06-Aug-2016 03:15:24 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[06-Aug-2016 03:15:24 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[06-Aug-2016 06:28:38 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[06-Aug-2016 10:36:47 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[06-Aug-2016 13:18:08 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[06-Aug-2016 14:56:33 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/adminfunctions.php on line 48
+[06-Aug-2016 14:56:56 America/Denver] PHP Warning:  Missing argument 1 for changeRole(), called in /home5/truemin1/public_html/adminfunctions.php on line 48 and defined in /home5/truemin1/public_html/adminfunctions.php on line 10
+[06-Aug-2016 14:56:56 America/Denver] PHP Warning:  Missing argument 2 for changeRole(), called in /home5/truemin1/public_html/adminfunctions.php on line 48 and defined in /home5/truemin1/public_html/adminfunctions.php on line 10
+[06-Aug-2016 14:56:56 America/Denver] PHP Notice:  Undefined variable: newRole in /home5/truemin1/public_html/adminfunctions.php on line 12
+[06-Aug-2016 14:56:56 America/Denver] PHP Notice:  Undefined variable: userid in /home5/truemin1/public_html/adminfunctions.php on line 16
+[06-Aug-2016 15:22:17 America/Denver] PHP Warning:  Missing argument 1 for toggleColumn(), called in /home5/truemin1/public_html/adminfunctions.php on line 53 and defined in /home5/truemin1/public_html/adminfunctions.php on line 22
+[06-Aug-2016 15:22:17 America/Denver] PHP Warning:  Missing argument 2 for toggleColumn(), called in /home5/truemin1/public_html/adminfunctions.php on line 53 and defined in /home5/truemin1/public_html/adminfunctions.php on line 22
+[06-Aug-2016 15:22:17 America/Denver] PHP Warning:  Missing argument 3 for toggleColumn(), called in /home5/truemin1/public_html/adminfunctions.php on line 53 and defined in /home5/truemin1/public_html/adminfunctions.php on line 22
+[06-Aug-2016 15:22:17 America/Denver] PHP Notice:  Undefined variable: columnName in /home5/truemin1/public_html/adminfunctions.php on line 35
+[06-Aug-2016 15:23:28 America/Denver] PHP Warning:  Missing argument 1 for toggleColumn(), called in /home5/truemin1/public_html/adminfunctions.php on line 53 and defined in /home5/truemin1/public_html/adminfunctions.php on line 22
+[06-Aug-2016 15:23:28 America/Denver] PHP Warning:  Missing argument 2 for toggleColumn(), called in /home5/truemin1/public_html/adminfunctions.php on line 53 and defined in /home5/truemin1/public_html/adminfunctions.php on line 22
+[06-Aug-2016 15:23:28 America/Denver] PHP Warning:  Missing argument 3 for toggleColumn(), called in /home5/truemin1/public_html/adminfunctions.php on line 53 and defined in /home5/truemin1/public_html/adminfunctions.php on line 22
+[06-Aug-2016 15:23:28 America/Denver] PHP Notice:  Undefined variable: columnName in /home5/truemin1/public_html/adminfunctions.php on line 35
+[06-Aug-2016 15:24:25 America/Denver] PHP Warning:  Missing argument 1 for toggleColumn(), called in /home5/truemin1/public_html/adminfunctions.php on line 53 and defined in /home5/truemin1/public_html/adminfunctions.php on line 22
+[06-Aug-2016 15:24:25 America/Denver] PHP Warning:  Missing argument 2 for toggleColumn(), called in /home5/truemin1/public_html/adminfunctions.php on line 53 and defined in /home5/truemin1/public_html/adminfunctions.php on line 22
+[06-Aug-2016 15:24:25 America/Denver] PHP Warning:  Missing argument 3 for toggleColumn(), called in /home5/truemin1/public_html/adminfunctions.php on line 53 and defined in /home5/truemin1/public_html/adminfunctions.php on line 22
+[06-Aug-2016 15:24:25 America/Denver] PHP Notice:  Undefined variable: columnName in /home5/truemin1/public_html/adminfunctions.php on line 35
+[06-Aug-2016 15:25:02 America/Denver] PHP Warning:  Missing argument 1 for toggleColumn(), called in /home5/truemin1/public_html/adminfunctions.php on line 53 and defined in /home5/truemin1/public_html/adminfunctions.php on line 22
+[06-Aug-2016 15:25:02 America/Denver] PHP Warning:  Missing argument 2 for toggleColumn(), called in /home5/truemin1/public_html/adminfunctions.php on line 53 and defined in /home5/truemin1/public_html/adminfunctions.php on line 22
+[06-Aug-2016 15:25:02 America/Denver] PHP Warning:  Missing argument 3 for toggleColumn(), called in /home5/truemin1/public_html/adminfunctions.php on line 53 and defined in /home5/truemin1/public_html/adminfunctions.php on line 22
+[06-Aug-2016 15:25:02 America/Denver] PHP Notice:  Undefined variable: columnName in /home5/truemin1/public_html/adminfunctions.php on line 35
+[06-Aug-2016 15:25:20 America/Denver] PHP Notice:  Undefined variable: columnName in /home5/truemin1/public_html/adminfunctions.php on line 35
+[06-Aug-2016 19:13:53 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[06-Aug-2016 19:14:05 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[06-Aug-2016 19:14:05 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[06-Aug-2016 19:14:06 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/team.php on line 27
+[06-Aug-2016 19:14:07 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[06-Aug-2016 21:33:26 America/Denver] PHP Notice:  Undefined variable: categoryid in /home5/truemin1/public_html/functions.php on line 21
+[06-Aug-2016 21:43:23 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:43:23 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:43:45 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:43:45 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:44:19 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:44:19 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:44:33 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:44:33 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:46:07 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:46:26 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:47:19 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:47:57 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:48:16 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:48:49 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:49:07 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:50:22 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:64) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 21:50:57 America/Denver] PHP Fatal error:  Call to undefined function retrieveCategories() in /home5/truemin1/public_html/functions.php on line 66
+[06-Aug-2016 21:51:30 America/Denver] PHP Fatal error:  Cannot redeclare getCategoryNameFromId() (previously declared in /home5/truemin1/public_html/functions.php:62) in /home5/truemin1/public_html/common.php on line 64
+[06-Aug-2016 23:39:03 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[07-Aug-2016 02:15:29 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[07-Aug-2016 08:43:43 America/Denver] PHP Fatal error:  Call to undefined function changeCategoryName() in /home5/truemin1/public_html/functions.php on line 66
+[07-Aug-2016 08:43:50 America/Denver] PHP Fatal error:  Call to undefined function changeCategoryName() in /home5/truemin1/public_html/functions.php on line 66
+[07-Aug-2016 08:43:50 America/Denver] PHP Fatal error:  Call to undefined function changeCategoryName() in /home5/truemin1/public_html/functions.php on line 66
+[07-Aug-2016 08:43:50 America/Denver] PHP Fatal error:  Call to undefined function changeCategoryName() in /home5/truemin1/public_html/functions.php on line 66
+[07-Aug-2016 08:43:50 America/Denver] PHP Fatal error:  Call to undefined function changeCategoryName() in /home5/truemin1/public_html/functions.php on line 66
+[07-Aug-2016 08:43:52 America/Denver] PHP Fatal error:  Call to undefined function changeCategoryName() in /home5/truemin1/public_html/functions.php on line 66
+[07-Aug-2016 08:45:08 America/Denver] PHP Fatal error:  Call to undefined function changeCategoryName() in /home5/truemin1/public_html/functions.php on line 66
+[07-Aug-2016 08:45:50 America/Denver] PHP Fatal error:  Call to undefined function changeCategoryName() in /home5/truemin1/public_html/functions.php on line 66
+[07-Aug-2016 09:09:07 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:13 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:13 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:13 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:13 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:13 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:13 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:13 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:14 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:14 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:14 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:14 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:14 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:14 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:14 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:14 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:20 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:21 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:21 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:21 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:21 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:21 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:21 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:23 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:23 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:23 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:23 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:23 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:23 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 09:09:24 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/truemin1/public_html/adminfunctions.php on line 77
+[07-Aug-2016 16:15:52 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[07-Aug-2016 18:23:09 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[07-Aug-2016 18:23:11 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[07-Aug-2016 20:25:30 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[07-Aug-2016 22:34:09 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[07-Aug-2016 22:34:09 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[08-Aug-2016 09:58:41 America/Denver] PHP Fatal error:  Cannot redeclare getUserNameFromId() (previously declared in /home5/truemin1/public_html/common.php:48) in /home5/truemin1/public_html/common.php on line 48
+[08-Aug-2016 10:01:39 America/Denver] PHP Warning:  include(moderate/editcategories.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/moderate.php on line 28
+[08-Aug-2016 10:01:39 America/Denver] PHP Warning:  include(): Failed opening 'moderate/editcategories.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/moderate.php on line 28
+[08-Aug-2016 10:02:11 America/Denver] PHP Warning:  include(moderate/editcategories.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/moderate.php on line 28
+[08-Aug-2016 10:02:11 America/Denver] PHP Warning:  include(): Failed opening 'moderate/editcategories.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/moderate.php on line 28
+[08-Aug-2016 10:02:16 America/Denver] PHP Warning:  include(moderate/editcategories.php): failed to open stream: No such file or directory in /home5/truemin1/public_html/moderate.php on line 28
+[08-Aug-2016 10:02:16 America/Denver] PHP Warning:  include(): Failed opening 'moderate/editcategories.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home5/truemin1/public_html/moderate.php on line 28
+[08-Aug-2016 10:02:58 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[08-Aug-2016 10:02:59 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[08-Aug-2016 10:02:59 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[08-Aug-2016 10:03:02 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[08-Aug-2016 10:04:10 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[08-Aug-2016 10:04:11 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[08-Aug-2016 10:04:39 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[08-Aug-2016 10:05:08 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[08-Aug-2016 10:07:22 America/Denver] PHP Fatal error:  Call to undefined function requireadminormod() in /home5/truemin1/public_html/reports.php on line 3
+[08-Aug-2016 10:10:22 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:10:23 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:10:23 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:10:32 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:11:06 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:11:26 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:11:49 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:13:31 America/Denver] PHP Fatal error:  Cannot redeclare getUserNameFromId() (previously declared in /home5/truemin1/public_html/common.php:48) in /home5/truemin1/public_html/common.php on line 48
+[08-Aug-2016 10:14:14 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:14:15 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:14:15 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:14:22 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:16:05 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:16:05 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:16:05 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:16:10 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:16:34 America/Denver] PHP Fatal error:  Call to undefined function requireadmin() in /home5/truemin1/public_html/userpanel.php on line 3
+[08-Aug-2016 10:17:42 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[08-Aug-2016 10:19:37 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[08-Aug-2016 10:19:53 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[08-Aug-2016 10:19:56 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[08-Aug-2016 10:21:27 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[08-Aug-2016 15:20:06 America/Denver] PHP Fatal error:  Call to undefined function requireadminormod() in /home5/truemin1/public_html/reports.php on line 3
+[08-Aug-2016 18:18:16 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[08-Aug-2016 18:18:30 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[08-Aug-2016 18:18:30 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/team.php on line 27
+[08-Aug-2016 18:18:31 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[08-Aug-2016 23:23:18 America/Denver] PHP Fatal error:  Call to undefined function requireadminormod() in /home5/truemin1/public_html/reports.php on line 3
+[09-Aug-2016 02:27:53 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[09-Aug-2016 04:33:41 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[09-Aug-2016 06:28:39 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[09-Aug-2016 06:33:03 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[09-Aug-2016 09:30:44 America/Denver] PHP Fatal error:  Call to undefined function requireadminormod() in /home5/truemin1/public_html/reports.php on line 3
+[09-Aug-2016 10:13:52 America/Denver] PHP Notice:  Undefined variable: str in /home5/truemin1/public_html/reports.php on line 31
+[09-Aug-2016 10:15:06 America/Denver] PHP Fatal error:  Cannot redeclare getUserNameFromId() (previously declared in /home5/truemin1/public_html/common.php:48) in /home5/truemin1/public_html/common.php on line 48
+[09-Aug-2016 10:15:22 America/Denver] PHP Fatal error:  Cannot redeclare getUserNameFromId() (previously declared in /home5/truemin1/public_html/common.php:48) in /home5/truemin1/public_html/common.php on line 48
+[09-Aug-2016 10:17:18 America/Denver] PHP Notice:  Undefined variable: str in /home5/truemin1/public_html/reports.php on line 31
+[09-Aug-2016 15:41:43 America/Denver] PHP Fatal error:  Call to undefined function requireadminormod() in /home5/truemin1/public_html/reports.php on line 3
+[09-Aug-2016 18:38:26 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[09-Aug-2016 20:24:41 America/Denver] PHP Fatal error:  Call to undefined function requireadminormod() in /home5/truemin1/public_html/reports.php on line 3
+[09-Aug-2016 20:44:44 America/Denver] PHP Notice:  Undefined variable: apikey in /home5/truemin1/public_html/common.php on line 661
+[09-Aug-2016 20:44:45 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/Mild?api_key=): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home5/truemin1/public_html/common.php on line 662
+[09-Aug-2016 20:45:50 America/Denver] PHP Notice:  Undefined index: Mild in /home5/truemin1/public_html/common.php on line 665
+[09-Aug-2016 21:08:45 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[09-Aug-2016 21:08:46 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/team.php on line 27
+[09-Aug-2016 21:35:33 America/Denver] PHP Notice:  Undefined index: code in /home5/truemin1/public_html/registeruser.php on line 58
+[09-Aug-2016 21:44:20 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[09-Aug-2016 21:44:25 America/Denver] PHP Fatal error:  Call to undefined function requireadminormod() in /home5/truemin1/public_html/reports.php on line 3
+[09-Aug-2016 21:44:34 America/Denver] PHP Fatal error:  Call to undefined function requireadminormod() in /home5/truemin1/public_html/reports.php on line 3
+[09-Aug-2016 21:44:46 America/Denver] PHP Fatal error:  Call to undefined function requireAdminOrMod() in /home5/truemin1/public_html/reports.php on line 3
+[09-Aug-2016 21:45:03 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[09-Aug-2016 23:12:38 America/Denver] PHP Notice:  Undefined index: queue in /home5/truemin1/public_html/common.php on line 704
+[09-Aug-2016 23:13:18 America/Denver] PHP Notice:  Array to string conversion in /home5/truemin1/public_html/common.php on line 710
+[09-Aug-2016 23:14:10 America/Denver] PHP Notice:  Undefined index: division in /home5/truemin1/public_html/common.php on line 707
+[09-Aug-2016 23:14:52 America/Denver] PHP Notice:  Array to string conversion in /home5/truemin1/public_html/common.php on line 708
+[09-Aug-2016 23:15:31 America/Denver] PHP Notice:  Undefined index: division in /home5/truemin1/public_html/common.php on line 707
+[09-Aug-2016 23:17:14 America/Denver] PHP Notice:  Array to string conversion in /home5/truemin1/public_html/common.php on line 709
+[09-Aug-2016 23:19:29 America/Denver] PHP Parse error:  syntax error, unexpected '*' in /home5/truemin1/public_html/common.php on line 711
+[10-Aug-2016 00:55:58 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 07:13:04 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 07:13:14 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 07:13:14 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 10:16:56 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/Lord 423?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 400 BAD_REQUEST
+ in /home5/truemin1/public_html/common.php on line 661
+[10-Aug-2016 10:17:35 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/Lord 423?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 400 BAD_REQUEST
+ in /home5/truemin1/public_html/common.php on line 661
+[10-Aug-2016 16:16:34 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 17:38:52 America/Denver] PHP Notice:  Undefined variable: id in /home5/truemin1/public_html/common.php on line 388
+[10-Aug-2016 17:39:26 America/Denver] PHP Notice:  Undefined variable: id in /home5/truemin1/public_html/common.php on line 388
+[10-Aug-2016 17:40:11 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:40:54 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:41:44 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:42:19 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:43:36 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:44:22 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:44:55 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:45:14 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:45:32 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:52:53 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:52:57 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:52:59 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:00 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:00 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:00 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:01 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:01 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:01 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:03 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:03 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:04 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:04 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:04 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:04 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:04 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:04 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:52 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:53:54 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:54 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:55 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:53:55 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:54:07 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:54:08 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:54:09 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:54:09 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:54:09 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:54:09 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:54:10 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:54:10 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:54:21 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:54:54 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:54:57 America/Denver] PHP Fatal error:  Call to undefined function () in /home5/truemin1/public_html/functions.php on line 80
+[10-Aug-2016 17:55:13 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:55:21 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:55:40 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:56:23 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:56:43 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 17:58:30 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 18:12:33 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 18:15:19 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 18:15:29 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 18:18:31 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 18:18:41 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 18:18:53 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 19:53:45 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 19:53:54 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/team.php on line 27
+[10-Aug-2016 19:53:55 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 19:53:55 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 19:53:56 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 20:13:54 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v2.5/league/by-summoner/0/entry?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home5/truemin1/public_html/common.php on line 675
+[10-Aug-2016 20:13:54 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/common.php on line 716
+[10-Aug-2016 21:36:40 America/Denver] PHP Notice:  Undefined index: id in /home5/truemin1/public_html/profile.php on line 55
+[10-Aug-2016 21:53:23 America/Denver] PHP Notice:  Undefined index: id in /home5/truemin1/public_html/profile.php on line 59
+[10-Aug-2016 22:00:30 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 22:00:31 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 22:00:31 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 22:00:31 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 22:00:31 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 22:00:38 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 22:00:38 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 22:00:38 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 22:00:38 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 22:00:39 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 22:00:39 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 13
+[10-Aug-2016 22:58:21 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 14
+[10-Aug-2016 23:20:02 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 14
+[10-Aug-2016 23:26:20 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 14
+[10-Aug-2016 23:26:41 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[10-Aug-2016 23:26:43 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 14
+[10-Aug-2016 23:28:16 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 14
+[10-Aug-2016 23:29:31 America/Denver] PHP Fatal error:  Call to undefined function loggedIn() in /home5/truemin1/public_html/nav.php on line 14
+[11-Aug-2016 11:37:21 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[11-Aug-2016 13:23:28 America/Denver] PHP Parse error:  syntax error, unexpected '$db_main' (T_VARIABLE) in /home5/truemin1/public_html/common.php on line 237
+[11-Aug-2016 13:24:29 America/Denver] PHP Notice:  Undefined variable: db in /home5/truemin1/public_html/common.php on line 25
+[11-Aug-2016 13:24:29 America/Denver] PHP Fatal error:  Call to a member function setAttribute() on null in /home5/truemin1/public_html/common.php on line 25
+[11-Aug-2016 13:25:10 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[11-Aug-2016 13:25:50 America/Denver] PHP Parse error:  syntax error, unexpected '$GLOBALS' (T_VARIABLE) in /home5/truemin1/public_html/common.php on line 238
+[11-Aug-2016 13:26:18 America/Denver] PHP Parse error:  syntax error, unexpected '$GLOBALS' (T_VARIABLE) in /home5/truemin1/public_html/common.php on line 238
+[11-Aug-2016 13:34:24 America/Denver] PHP Fatal error:  Call to a member function prepare() on integer in /home5/truemin1/public_html/common.php on line 244
+[11-Aug-2016 13:36:11 America/Denver] PHP Parse error:  syntax error, unexpected '$GLOBALS' (T_VARIABLE) in /home5/truemin1/public_html/common.php on line 239
+[11-Aug-2016 13:36:24 America/Denver] PHP Parse error:  syntax error, unexpected '$db_main' (T_VARIABLE) in /home5/truemin1/public_html/common.php on line 239
+[11-Aug-2016 13:38:53 America/Denver] PHP Notice:  Undefined variable: database in /home5/truemin1/public_html/common.php on line 259
+[11-Aug-2016 13:38:53 America/Denver] PHP Notice:  Object of class PDO could not be converted to int in /home5/truemin1/public_html/common.php on line 260
+[11-Aug-2016 13:39:34 America/Denver] PHP Notice:  Object of class PDO could not be converted to int in /home5/truemin1/public_html/common.php on line 260
+[11-Aug-2016 13:41:20 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[11-Aug-2016 13:46:32 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[11-Aug-2016 14:08:18 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 14
+[11-Aug-2016 19:05:17 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[11-Aug-2016 20:23:03 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 14
+[11-Aug-2016 20:59:23 America/Denver] PHP Parse error:  syntax error, unexpected ':' in /home5/truemin1/public_html/common.php on line 737
+[11-Aug-2016 20:59:28 America/Denver] PHP Parse error:  syntax error, unexpected ':' in /home5/truemin1/public_html/common.php on line 737
+[11-Aug-2016 20:59:40 America/Denver] PHP Parse error:  syntax error, unexpected ':' in /home5/truemin1/public_html/common.php on line 737
+[11-Aug-2016 22:32:25 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[11-Aug-2016 22:45:27 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/Saiyuki Ninza?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 400 BAD_REQUEST
+ in /home5/truemin1/public_html/common.php on line 669
+[11-Aug-2016 22:45:27 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner//runes?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home5/truemin1/public_html/common.php on line 669
+[11-Aug-2016 22:45:27 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/common.php on line 694
+[11-Aug-2016 22:46:10 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/Saiyuki Ninza?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 400 BAD_REQUEST
+ in /home5/truemin1/public_html/common.php on line 669
+[11-Aug-2016 22:46:10 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner//runes?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home5/truemin1/public_html/common.php on line 669
+[11-Aug-2016 22:46:10 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/common.php on line 694
+[11-Aug-2016 22:46:44 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/Saiyuki Ninza?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 400 BAD_REQUEST
+ in /home5/truemin1/public_html/common.php on line 669
+[11-Aug-2016 22:46:44 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner//runes?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home5/truemin1/public_html/common.php on line 669
+[11-Aug-2016 22:46:44 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/common.php on line 694
+[11-Aug-2016 22:47:14 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/Saiyuki Ninza?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 400 BAD_REQUEST
+ in /home5/truemin1/public_html/common.php on line 669
+[11-Aug-2016 22:47:14 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner//runes?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home5/truemin1/public_html/common.php on line 669
+[11-Aug-2016 22:47:14 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/common.php on line 694
+[11-Aug-2016 22:48:19 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/Saiyuki Ninza?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 400 BAD_REQUEST
+ in /home5/truemin1/public_html/common.php on line 669
+[11-Aug-2016 22:48:19 America/Denver] PHP Warning:  file_get_contents(https://na.api.pvp.net/api/lol/na/v1.4/summoner//runes?api_key=RGAPI-D4D6FD69-2C00-4BCC-9E9D-DE131CA66DBA): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home5/truemin1/public_html/common.php on line 669
+[11-Aug-2016 22:48:19 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/common.php on line 694
+[11-Aug-2016 22:49:42 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[11-Aug-2016 22:51:02 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[12-Aug-2016 06:30:48 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 14
+[12-Aug-2016 06:34:41 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 14
+[12-Aug-2016 06:58:27 America/Denver] PHP Fatal error:  Call to undefined function loggedin() in /home5/truemin1/public_html/nav.php on line 14
+[12-Aug-2016 08:56:33 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[12-Aug-2016 09:42:58 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
+[12-Aug-2016 10:09:01 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/truemin1/public_html/modules/dashboard/module_schedule.php on line 32
