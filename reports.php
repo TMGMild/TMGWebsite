@@ -25,7 +25,7 @@ $reports = fetchAll($query);
         {
         ?>
             <tr id="<?php echo $report['id'];?>">
-                <td style="width:35%;vertical-align:top;">
+                <td style="width:55%;" class="top">
                     <p class="code">
                         <?php
                         $message = nl2br(getPostContent($report['postid'], $report['commentid']));
@@ -34,11 +34,11 @@ $reports = fetchAll($query);
                         ?>
                     </p>
                 </td>
-                <td style="width:35%;vertical-align:top;">
+                <td style="width:15%;" class="top">
                     <?php echo nl2br($report['description']);?>
                 </td>
-                <td style="width:10%;vertical-align:top"><?php echo timeToString($report['date']);?></td>
-                <td style="width:20%;vertical-align:top">
+                <td style="width:10%;" class="top"><?php echo timeToString($report['date']);?></td>
+                <td style="width:20%;" class="top">
                     <?php
                     $suscount = getSusCount($userid);
                     $display = true;
@@ -52,12 +52,12 @@ $reports = fetchAll($query);
                     if ($display)
                     { ?>
                         Author's past suspensions: <?php echo $suscount;?><br>
-                        <a class="block-green" href="javascript:deleteReport(<?php echo $report['id'];?>)">Dismiss</a>
+                        <a href="javascript:deleteReport(<?php echo $report['id'];?>)"><span class="notice green">DISMISS</span></a>
                         <br>
-                        <a class="block-red" href="#" onclick='this.nextElementSibling.style.display="block";'>Act</a>
+                        <a href="#" onclick='$(this).next().toggle(300);'><span class="notice red">ACT</span></a>
                         <div style="display:none;">
                             Delete post and suspend author for:
-                            <select name="time">
+                            <select name="time" class="small">
                                 <option value="0">0 days</option>
                                 <option value="1">1 day</option>
                                 <option value="7" selected>7 days</option>
@@ -65,7 +65,7 @@ $reports = fetchAll($query);
                                 <option value="9999">Indefinitely</option>
                             </select>
                             <br>
-                            <input type="submit" onclick="act(<?php echo $report['id'];?>, $(this).siblings(0).val())" value="Submit">
+                            <input type="submit" class="small" onclick="act(<?php echo $report['id'];?>, $(this).siblings(0).val())" value="Submit">
                         </div>
                     <?php
                     }

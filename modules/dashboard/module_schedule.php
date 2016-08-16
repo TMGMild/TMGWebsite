@@ -23,59 +23,61 @@ $row = fetch($query);
 
 <h2>Schedule</h2>
 <hr>
-<a href="schedule.php">View full schedule</a>
-<h3>Weekend of <?php echo $displaydate;?></h3>
+<a href="schedule.php">(View full schedule)</a>
 <table>
 
 <?php 
 $i = 0;
-foreach($row as $slot => $entry):
-    if ($i % 2 == 0)
-    {
-        //new row
-    ?>   
-        <tr>
-            <td>
-                <?php
-                $timeslot = substr($slot, 0, 1);
-                $timeslotstr = timeSlotToTime($timeslot);
-                echo $timeslotstr;
-                ?>
-            </td>
-            <td>
-                <?php
-                if ($entry == teamID())
-                {
-                    echo '<span style="font-size:18px;color:red;">' . getTeamNameFromTeamID($entry) . '</span>';
-                }
-                else
-                {
-                    echo getTeamNameFromTeamID($entry);
-                }
-                ?>
-            </td>
-    <?php }
-    else
-    {
-        //continue (and end) row
-        ?>
-        <td>
-            <?php
-                if ($entry == teamID())
-                {
-                    echo '<span style="font-size:18px;color:red;">' . getTeamNameFromTeamID($entry) . '</span>';
-                }
-                else
-                {
-                    echo getTeamNameFromTeamID($entry);
-                }
+if ($row)
+{
+    foreach($row as $slot => $entry):
+        if ($i % 2 == 0)
+        {
+            //new row
+        ?>   
+            <tr>
+                <td>
+                    <?php
+                    $timeslot = substr($slot, 0, 1);
+                    $timeslotstr = timeSlotToTime($timeslot);
+                    echo $timeslotstr;
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($entry == teamID())
+                    {
+                        echo '<span style="font-size:18px;color:red;">' . getTeamNameFromTeamID($entry) . '</span>';
+                    }
+                    else
+                    {
+                        echo getTeamNameFromTeamID($entry);
+                    }
+                    ?>
+                </td>
+        <?php }
+        else
+        {
+            //continue (and end) row
             ?>
-        </td>
-    </tr>
-    <?php }
+            <td>
+                <?php
+                    if ($entry == teamID())
+                    {
+                        echo '<span style="font-size:18px;color:red;">' . getTeamNameFromTeamID($entry) . '</span>';
+                    }
+                    else
+                    {
+                        echo getTeamNameFromTeamID($entry);
+                    }
+                ?>
+            </td>
+        </tr>
+        <?php }
 
-$i++;
-endforeach; 
+    $i++;
+    endforeach;
+}
 ?>
 
 </table>

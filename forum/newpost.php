@@ -93,16 +93,31 @@
     </head>
     <body>
         <?php include 'nav.php'; ?>
-        <div class="container">
-            <h1>New Post</h1> 
-            <hr>
-            <form action="newpost.php?id=<?php echo $id;?>" method="post"> 
-                <input type="text" style="width:600px;font-size:22px;" name="title" placeholder="Title" /> 
-                <br /><br />
-                <textarea name="text" class="fullwidth" rows="20"/> </textarea>
-                <br /><br />
-                <input type="submit" value="Submit" /> 
-            </form>
+        <div class="wrapper">
+            <div class="content">
+                <h1>New Post</h1> 
+                <hr>
+                <form action="newpost.php?id=<?php echo $id;?>" method="post"> 
+                    <input type="text" style="width:600px;font-size:22px;" name="title" placeholder="Title" /> 
+                    <br /><br />
+                    <textarea name="text" class="fullwidth" rows="20"/> </textarea>
+                    <br /><br />
+                    <input type="submit" value="Submit" />
+
+                    <br><br>
+                    <a href="javascript:$('#formatting').toggle(300)"><span class="notice green">FORMATTING</span></a>
+                    <table class="compact" id="formatting" style="display:none;">
+                        <tr style="font-size:15px;">
+                            <td>You write</td>
+                            <td>You see</td>
+                        </tr>
+                        <tr><td>|*Bold*|</td><td><b>Bold</b></td>
+                        <tr><td>|^Italics^|</td><td><i>Italics</i></td>
+                        <tr><td>|~Strikethrough~|</td><td><strike>Strikethrough</strike></td>
+                        <tr><td>|!Header!|</td><td><span class="forumTitle">Header</span></td>
+                    </table>
+                </form>
+            </div>
         </div>
     </body>
 </html>

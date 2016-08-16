@@ -21,28 +21,37 @@ if (!empty($_POST))
 
     $query = "SELECT username FROM users WHERE email = '$email'";
     $username = fetchColumn($query);
-
+    
     require_once "Mail.php";
 
     $from = "True Minded Gaming <noreply@truemindedgaming.com>";
     $to = "<$email>";
-    $subject = "Forgot password";
-    $body = "$username, \r\n \r\nApparently, you've forgotten your password. If this was indeed you, you can reset your password here: $link. Have an extraordinary day. \r\n \r\nYour fellow gamers, \r\nTrue Minded Gaming";
+    $subject = "Forgot Password";
+    $body = "$username, \n\nYou seem to have forgotten your password. If this was indeed you, you can reset your password here: $link. Have a great day. \n\nYour fellow gamers,\n\nTrue Minded Gaming";
 
     $host = "mail.truemindedgaming.com";
+    $port = "26";
     $username = "noreply@truemindedgaming.com";
     $password = "!N0Reply1";
+
     $headers = array ('From' => $from,
       'To' => $to,
       'Subject' => $subject);
     $smtp = Mail::factory('smtp',
       array ('host' => $host,
-        'auth' => true,
+        'port' => $port,
+        'auth' => false,
         'username' => $username,
         'password' => $password));
 
     $mail = $smtp->send($to, $headers, $body);
 
+    if (PEAR::isError($mail)) {
+      echo("<p>" . $mail->getMessage() . "</p>");
+    } else {
+      echo("<p>Message successfully sent! Redirecting...</p>");
+    }
+    
     redirect("forgotpassword.php?r=1");
 }
 else
@@ -64,7 +73,7 @@ else
                     <?php 
                     if ($r == 1)
                     {
-                        echo '<div class="block block-green center" style="margin-top:0;">Email successfully sent.</div><br>';
+                        echo '<div>Email successfully sent.</div><br>';
                     }?>
                     <input type="text" name="email" placeholder="Email">
                     <input type="submit" value="Submit">

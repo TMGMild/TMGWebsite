@@ -3,11 +3,11 @@ require("common.php");
 $page = get('page', 1);
 $commentstodisplay = 5;
 $offset = ($page - 1) * $commentstodisplay;
-$postid = $_GET['id'];
+$postid = get('id', 1);
 $commentid = get('comment', 0);
 
 $query = "SELECT * FROM post_" . $postid . " ORDER BY `date` ASC LIMIT " . $commentstodisplay . " OFFSET " . $offset; //Get all comments
-$rows = fetchAll($query);
+$replies = fetchAll($query);
 
 //Fetch reported comments from this thread
 $query = "SELECT commentid FROM reports WHERE postid=$postid";
@@ -41,82 +41,89 @@ if ($therow['removed'] == 0)
         <div class="wrapper">
             <div class="content">
                 <a style="font-size:15px;" href="viewforum.php?id=<?php echo $categoryid;?>"><< Return to <?php echo $categoryname; ?></a><br><br>
-                <h1><?php echo $title;?></h1><br>     
+                <h2 class="left"><?php echo $title;?></h2><br>     
                 <table>
-                    <?php foreach($rows as $row):
-                    if ($row['commentid'] == $commentid)
+                    <?php 
+                    foreach($replies as $reply)
                     {
-                        echo '<tr class="highlight">';
-                    }
-                    else
-                    {
-                        echo '<tr>';
-                    }
-                    $text = format($row['text']);
-                    ?>
-                        <?php 
-                        if($row['removed'] == 1)
+                        if ($reply['commentid'] == $commentid)
                         {
-                            if (isAdminOrMod())
-                            {
-                                echo '<td></td><td>The following comment has been removed. Normal users will not see it:<br><p class="code">' . $text . '</p></td><td><a class="block red" href="unremove.php?postid=' . $postid . '&commentid=' . $row['commentid'] . '&ctd=' . $commentstodisplay . '">UNREMOVE</a></td>';
-                            }
-                            else
-                            {
-                                echo '<td></td><td>[Reply removed.]</td><td></td>';
-                            }
+                            echo '<tr class="highlight">';
                         }
                         else
                         {
-                        ?>
-                            <td style="vertical-align:top;width:10%;">
-                                <?php echo echoUserName($row['authorid']);?>
-                                <br>
-                                <span style="font-size:14px;margin-top:5px;"><?php echo teamName(getUserNameFromId($row['authorid']));?></span>
-                            </td>
-                            <td style="vertical-align:top;width:65%;">
-                                <?php echo $text; ?>
-                            </td>
-                            <td style="width:25%;">
-                                <?php 
-                                $time = strtotime($row['date']);
-                                $date = date("m/d/y g:i A", $time);
-                                echo timeToString($date);?>
-                                <br><br>
-                                <?php 
-                                if ((isAdminOrMod() && !isAdmin($row['authorid'])) || userID() == $row['authorid'])
+                            echo '<tr>';
+                        }
+                        
+                            $text = format($reply['text']);
+                            if($reply['removed'] == 1)
+                            {
+                                if (isAdminOrMod())
                                 {
-                                    //Show admin tools
-                                    echo '<a class="block red" href="remove.php?postid=' . $postid . '&commentid=' . $row['commentid'] . '&ctd=' . $commentstodisplay . '">REMOVE</a>';
-                                    if ($row['authorid'] == userID())
-                                    {
-                                        echo ' <a class="block green" href="edit.php?postid=' . $postid . '&commentid=' . $row['commentid'] . '">EDIT</a>';
-                                    }
-                                    echo '<br><br>';
+                                    echo '<td></td><td>The following comment has been removed. Normal users will not see it:<br><p class="code">' . $text . '</p></td><td><a href="unremove.php?postid=' . $postid . '&commentid=' . $reply['commentid'] . '&ctd=' . $commentstodisplay . '"><span class="notice red">UNREMOVE</span></a></td>';
                                 }
-                                if (!in_array($row['commentid'], $reports))
+                                else
                                 {
-                                ?>
-                                <a href="#" style="font-size:14px;" onclick='document.getElementById("report<?php echo $row['commentid'];?>").style.display="block";'>Report</a>
-                                <form action="../report.php?pid=<?php echo $postid;?>&cid=<?php echo $row['commentid'];?>" method="post" id="report<?php echo $row['commentid'];?>" style="display:none;">
-                                    <textarea style="width:60%;" name="msg" placeholder="Why?" rows="3"></textarea>
+                                    echo '<td></td><td>[Reply removed.]</td><td></td>';
+                                }
+                            }
+                            else
+                            {
+                            ?>
+                                <td style="width:10%;" class="top">
+                                    <?php echo echoUserName($reply['authorid']);?>
                                     <br>
-                                    <input type="submit" value="Submit" style="font-size:14px;">
-                                </form>
-                                <?php
-                                }
-                                else { echo '<p style="font-size:12px;"><i>This post/comment has already been reported.</i></p>'; }
-                                ?>
-                            </td>
-                        <?php 
-                        } 
-                        ?>
-                    </tr>
-                    <?php
-                    endforeach; ?>
+                                    <span style="font-size:14px;margin-top:5px;"><?php echo teamName(getUserNameFromId($reply['authorid']));?></span>
+                                </td>
+                                <td style="width:65%;" class="top">
+                                    <?php echo $text; ?>
+                                </td>
+                                <td style="width:25%;" class="top">
+                                    <?php
+                                    echo timeToString($reply['date']);?>
+                                    <br>
+                                    <?php 
+                                    if ((isAdminOrMod() && isUser($reply['authorid'])) || userID() == $reply['authorid'])
+                                    {
+                                        //Show admin tools
+                                        echo '<a href="remove.php?postid=' . $postid . '&commentid=' . $reply['commentid'] . '&ctd=' . $commentstodisplay . '"><span class="notice green">REMOVE</span></a>';
+                                        
+                                        if ($reply['authorid'] == userID())
+                                        {
+                                            echo '<a href="edit.php?postid=' . $postid . '&commentid=' . $reply['commentid'] . '"><span class="notice green">EDIT</span></a>';
+                                        }
+                                    }
+                                
+                                    if (!in_array($reply['commentid'], $reports))
+                                    {
+                                    ?>
+                                        <a href="#" onclick='$("#report<?php echo $reply['commentid'];?>").toggle(300);'><span class="notice red">REPORT</span></a>
+                                        
+                                        <form action="../report.php?pid=<?php echo $postid;?>&cid=<?php echo $reply['commentid'];?>" method="post" id="report<?php echo $reply['commentid'];?>" style="display:none;">
+                                            <textarea style="width:60%;font-size:15px;" name="msg" placeholder="What's wrong?" rows="3"></textarea>
+                                            <br>
+                                            <input type="submit" value="Report" class="button grayScale small">
+                                        </form>
+                                    <?php
+                                    }
+                                    else 
+                                    { 
+                                        echo '<p class="small"><i>This post/comment has already been reported.</i></p>'; 
+                                    }
+                                    ?>
+                                </td>
+                            <?php 
+                            } 
+                            ?>
+                        </tr>
+                        <?php
+                    }
+                    ?>
+                    
                     <?php 
                     if(loggedIn() && $page == $pagescount) 
-                    { ?>
+                    { 
+                    ?>
                         <tr>
                             <td></td>
                             <td>
@@ -124,8 +131,10 @@ if ($therow['removed'] == 0)
                                     <textarea rows=10 name="text"></textarea>
                                     <br /><br /> 
                                     <input type="submit" value="Submit" /> 
-                                </form>
-                                <a href="#" style="font-size:14px;" onclick='toggleFormatting();'>Formatting Guide</a>
+                                </form>                                
+                            </td>
+                            <td style="vertical-align:top">
+                                <a href="javascript:$('#formatting').toggle(300)"><span class="notice green">FORMATTING</span></a>
                                 <table class="compact" id="formatting" style="display:none;">
                                     <tr style="font-size:15px;">
                                         <td>You write</td>
@@ -136,9 +145,6 @@ if ($therow['removed'] == 0)
                                     <tr><td>|~Strikethrough~|</td><td><strike>Strikethrough</strike></td>
                                     <tr><td>|!Header!|</td><td><span class="forumTitle">Header</span></td>
                                 </table>
-                            </td>
-                            <td style="vertical-align:top">
-                                
                             </td>
                         </tr>
                     <?php
@@ -181,7 +187,7 @@ else
             <?php include 'nav.php';?>
             <div class="wrapper">
                 <div class="content">
-                    <h1>This post has been removed</h1>
+                    <h2 class="left">This post has been removed</h2>
                     <hr>
                     <a style="font-size:20px;" href="viewforum.php?id=<?php echo $categoryid;?>"><< Return to <?php echo $categoryname; ?></a>
                 </div>

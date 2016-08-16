@@ -53,11 +53,25 @@ $url = "edit.php?postid=" . $postid . "&commentid=" . $commentid;
         <?php include 'nav.php'; ?>
         <div class="wrapper">
             <div class="content">
-                <h1>Edit Post</h1><br>
+                <h1>Edit Post</h1>
+                <hr>
                 <form action="<?php echo $url;?>" method="post">
                     <textarea name="text" rows=20><?php echo $currenttext;?></textarea>
                     <br /><br /> 
                     <input type="submit" value="Submit" /> 
+                    
+                    <br><br>
+                    <a href="javascript:$('#formatting').toggle(300)"><span class="notice green">FORMATTING</span></a>
+                    <table class="compact" id="formatting" style="display:none;">
+                        <tr style="font-size:15px;">
+                            <td>You write</td>
+                            <td>You see</td>
+                        </tr>
+                        <tr><td>|*Bold*|</td><td><b>Bold</b></td>
+                        <tr><td>|^Italics^|</td><td><i>Italics</i></td>
+                        <tr><td>|~Strikethrough~|</td><td><strike>Strikethrough</strike></td>
+                        <tr><td>|!Header!|</td><td><span class="forumTitle">Header</span></td>
+                    </table>
                 </form>
             </div>
         </div>

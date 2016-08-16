@@ -10,6 +10,7 @@ $teams = fetchAll($query);
 
 <h2>Schedule</h2>
 <hr>
+<div class="updater green" id="scheduleUpdater"></div>
 <table class="maxwidth">
     <tr>
         <td>Saturday</td>

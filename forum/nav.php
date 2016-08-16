@@ -1,10 +1,10 @@
 <div class="nav">
     <div class="menu">
-        <div class="menuLeft">
+        <div class="menuleft">
             <a href="../index.php">SITE HOME</a>
             <a href="viewforum.php">FORUM HOME</a>
         </div>
-        <div class="menuRight">
+        <div class="menuright">
             <?php 
             if (loggedIn())
             { ?>

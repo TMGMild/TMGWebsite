@@ -6,7 +6,7 @@ $rows = fetchAll($query);
 ?>
 <h2>Teams</h2>
 <hr>
-<div id="teamsUpdater" class="updaterGreen"></div>
+<div class="updater green" id="teamsUpdater"></div>
 <table id="teams">
 
 <?php 

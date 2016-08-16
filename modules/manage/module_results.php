@@ -25,56 +25,55 @@ $row = fetch($query);
 
 <h2>Results</h2>
 <hr>
+<div class="updater green" id="resultsUpdater"></div>
 <a href="schedule.php">View full schedule</a>
-<h3>Weekend of <?php echo $displaydate;?></h3>
 <br>
 <table>
-
-<?php 
-$i = 0;
-$team1 = 0;
-$team2 = 0;
-foreach($row as $slot => $entry): 
-    if ($i % 2 == 0)
+    <?php 
+    $i = 0;
+    $team1 = 0;
+    $team2 = 0;
+    if ($row)
     {
-        //new row
-    ?>
-        <tr>
-            <td>
-                <?php
-                $timeslot = substr($slot, 0, 1);
-                $timeslotstr = timeSlotToTime($timeslot);
-                echo $timeslotstr;
-                ?>
-            </td>
-            <td><?php
-                echo getTeamNameFromTeamID($entry);
-                ?>
-            </td>
-    <?php $team1 = $entry; }
-    else
-    {
-        //continue (and end) row
-        ?>
-        <td>
-            <?php
-                echo getTeamNameFromTeamID($entry); $team2 = $entry;
+        foreach($row as $slot => $entry)
+        {
+            if ($i % 2 == 0)
+            {
+                //new row
             ?>
-        </td>
-        <td>
-        <a href="updatestandings.php?draw=0&team1=<?php echo $team1;?>&team2=<?php echo $team2;?>">Win</a> | 
-        <a href="updatestandings.php?draw=0&team2=<?php echo $team1;?>&team1=<?php echo $team2;?>">Loss</a> | 
-        <a href="updatestandings.php?draw=1&team1=<?php echo $team1;?>&team2=<?php echo $team2;?>">Draw</a>
-        </td>
-    </tr>
-    <?php  } ?>
-
-    
-
-<?php 
-$i++;
-endforeach; 
-?>
-
+                <tr>
+                    <td>
+                        <?php
+                        $timeslot = substr($slot, 0, 1);
+                        $timeslotstr = timeSlotToTime($timeslot);
+                        echo $timeslotstr;
+                        ?>
+                    </td>
+                    <td><?php
+                        echo getTeamNameFromTeamID($entry);
+                        ?>
+                    </td>
+            <?php $team1 = $entry; }
+            else
+            {
+            ?>
+                <td>
+                    <?php
+                        echo getTeamNameFromTeamID($entry); $team2 = $entry;
+                    ?>
+                </td>
+                <td>
+                <a href="updatestandings.php?draw=0&team1=<?php echo $team1;?>&team2=<?php echo $team2;?>">Win</a> | 
+                <a href="updatestandings.php?draw=0&team2=<?php echo $team1;?>&team1=<?php echo $team2;?>">Loss</a> | 
+                <a href="updatestandings.php?draw=1&team1=<?php echo $team1;?>&team2=<?php echo $team2;?>">Draw</a>
+                </td>
+            </tr>
+            <?php
+            }
+        
+        $i++;
+        }
+    }
+    ?>
 </table>
 

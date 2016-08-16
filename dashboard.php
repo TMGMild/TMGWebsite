@@ -21,22 +21,22 @@ if(empty($_SESSION['user']))
             <div class="content">
                 <h1>Dashboard</h1>
                 <hr>
-                <div class="left">
+                <div class="layout two">
                     <?php include 'modules/dashboard/module_team.php'; ?>
                 </div>
-                <div class="right">
+                <div class="layout two">
                     <?php include 'modules/dashboard/module_schedule.php'; ?>            
                 </div>
-                <div class="left">
+                <div class="layout two">
                     <?php include 'modules/dashboard/module_standings.php'; ?>
                 </div>
-                <div class="right">
+                <div class="layout two">
                     <?php include 'modules/dashboard/module_updates.php'; ?>
                 </div>
                 <?php 
                 if (isCaster())
                 {?>
-                    <div class="left">
+                    <div class="layout two">
                         <?php include 'modules/module_casters.php'; ?>
                     </div>
                 <?php

@@ -1,5 +1,6 @@
 <h2>Casting</h2>
 <hr>
+<div class="updater green" id="updater"></div>
 <?php
 
 if (date("w") == 1 || date("w") == 2 || date("w") == 3)
@@ -34,7 +35,6 @@ else if (date("w") == 4)
 else
 {
     ?>
-    <p class="red">All of the text following this are for debugging purposes ONLY! These are NOT your actual casting times for this weekend!</p>
     <?php
     //Display actual schedule
     $query = "SELECT * FROM casterSchedule";

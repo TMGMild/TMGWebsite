@@ -33,10 +33,10 @@ $results = fetchAll($query);
         <?php include 'nav.php';?>
         <div class="wrapper">
             <div class="content">
-                <a style="font-size:15px;" href="viewforum.php?id=<?php echo $targetCategory;?>"><< Return to <?php echo getCategoryNameFromId($targetCategory); ?></a><br><br>
+                <a href="viewforum.php?id=<?php echo $targetCategory;?>"><< Return to <?php echo getCategoryNameFromId($targetCategory); ?></a><br><br>
                 <form action="search.php" method="get" style="display:inline;">
-                    <input type="text" class="big" style="width:40%;" name="q" value="<?php echo $searchQuery;?>">
-                    <input type="submit" class="big" style="margin-left:2px;"value="Search">
+                    <input type="text" class="big" style="width:100%;" name="q" value="<?php echo $searchQuery;?>">
+                    <input type="submit" class="big" style="display:none;" value="Search">
                 </form>
                 <hr>
                 <table>
@@ -56,8 +56,9 @@ $results = fetchAll($query);
                             '
                             <tr>
                                 <td>
-                                    <a style="font-size:20px;font-weight:100;" href="viewpost.php?id=' . $pid . '">' . $title . '</a><br>
-                                    <span style="font-size:14px;margin-top:10px;">by ' . getUserNameFromId($authorid) . ' in ' . $cname . '<br>' . 
+                                    <a class="huge" href="viewpost.php?id=' . $pid . '">' . $title . '</a>
+                                    <br>
+                                    <span>by ' . echoUserName($authorid) . ' in ' . $cname . '<br>' . 
                                     timeToString($date) . '</span>
                                 <td>
                             </tr>

@@ -1,36 +1,59 @@
-<?php     
-$isCaptain = isCaptain();
+<?php
 if (isOnTeam())
 {
     $teamID = teamID();
     if (isCaptain())
     {
-    ?>
+        $query = "SELECT teamLogo FROM rosters WHERE teamID = $teamID";
+        $teamLogo = fetchColumn($query);
+        ?>
 
     <h2>Manage My Team</h2>
     <hr>
-    <div id="teamUpdater" class="updaterGreen"></div>
+    <div class="updater green" id="teamUpdater"></div>
     <table>
-        <?php foreach(getRosterFromTeamID($teamID) as $position => $player) { if ($player == 0) { $player = ""; } else { $player = getUsernameFromId($player); } ?>
+        <tr>
+            <td>Team Logo URL</td>
+            <td><input type="text" value="<?php echo $teamLogo;?>" oninput="changeTeamLogo(<?php echo $teamID;?>, this.value)" placeholder="http://www.imgur.com/myLogo"/>&nbsp;&nbsp;<i>(100 x 100px)</i></td>
+        </tr>
+        <?php 
+        foreach(getRosterFromTeamID($teamID) as $position => $player) 
+        {
+            if ($player == 0) { $player = ""; } 
+            else { $player = getUsernameFromId($player); } 
+            ?>
             <tr>
                 <td><?php echo str_replace("main", "Main ", str_replace("sub", "Sub ", $position)); ?></td>
                 <td>
                     <input type="textbox" oninput="updateRoster(<?php echo '\'' . $position . '\',this.value)';?>" id="<?php echo $position;?>" value="<?php echo $player; ?>"/>
                 </td>
             </tr>
-        <?php } ?>
+        <?php 
+        } 
+        ?>
     </table>
-    <?php } else {?>
+    <?php 
+    } 
+    else 
+    {
+    ?>
     <h2>My Team</h2>
     <hr>
     <table>
-        <?php foreach(getRosterFromTeamID($teamID) as $position => $player) { if ($player == 0) { $player = ""; } else { $player = getUsernameFromId($player); } ?>
+        <?php 
+        foreach(getRosterFromTeamID($teamID) as $position => $player) 
+        { 
+            if ($player == 0) { $player = ""; } 
+            else { $player = getUsernameFromId($player); } 
+            ?>
             <tr>
                 <td><?php echo str_replace("main", "Main ", str_replace("sub", "Sub ", $position)); ?></td>
                 <td><?php echo $player; ?>"
                 </td>
             </tr>
-        <?php } ?>
+        <?php 
+        } 
+        ?>
     </table>
     <?php 
     } 

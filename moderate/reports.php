@@ -24,7 +24,7 @@ $reports = fetchAll($query);
         {
         ?>
             <tr id="<?php echo $report['id'];?>">
-                <td style="width:35%;vertical-align:top;">
+                <td style="width:45%;" class="top">
                     <p class="code">
                         <?php
                         $message = nl2br(getPostContent($report['postid'], $report['commentid']));
@@ -33,11 +33,11 @@ $reports = fetchAll($query);
                         ?>
                     </p>
                 </td>
-                <td style="width:35%;vertical-align:top;">
+                <td style="width:25%;" class="top">
                     <?php echo nl2br($report['description']);?>
                 </td>
-                <td style="width:10%;vertical-align:top"><?php echo timeToString($report['date']);?></td>
-                <td style="width:20%;">
+                <td style="width:10%;" class="top"><?php echo timeToString($report['date']);?></td>
+                <td style="width:20%;" class="top">
                     <?php
                     $suscount = getSusCount($userid);
                     $display = true;

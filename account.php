@@ -25,8 +25,7 @@
 
         execute("UPDATE users SET champ = '" . $_POST['champ'] . "' WHERE id=$userID");
 
-        $_SESSION['user']['email'] = $_POST['email']; 
-        $_SESSION['user']['username'] = $username;
+        $_SESSION['user']['email'] = $_POST['email'];
         
         redirect("dashboard.php");
     } 

@@ -1,6 +1,13 @@
 <?php
 
-include '../config.php';
+if (file_exists("../config.php"))
+{
+    include '../config.php';
+}
+else
+{
+    include '../../config.php';
+}
 
 //Undo magic quotes
 if(function_exists('get_magic_quotes_gpc') && get_magic_quotes_gpc())
@@ -47,7 +54,7 @@ function getCategoryNameFromId($id)
 {
     if ($id == 1)
     {
-        return "Board Home";
+        return "Forum Home";
     }
     else
     {
@@ -60,20 +67,22 @@ function getCategoryNameFromId($id)
 //$userid: user id
 function echoUserName($userid)
 {
-    echo '<a href="profile.php?id=' . $userid . '">';
+    $str = "";
+    $str .= '<a href="profile.php?id=' . $userid . '">';
     if (isAdmin($userid))
     {
-        echo '<span style="color:red;">' . getUserNameFromId($userid) . '</span>';
+        $str .= '<span style="color:red;">' . getUserNameFromId($userid) . '</span>';
     }
     else if (isMod($userid))
     {
-        echo '<span style="color:green;">' . getUserNameFromId($userid) . '</span>';
+        $str .= '<span style="color:green;">' . getUserNameFromId($userid) . '</span>';
     }
     else
     {
-        echo getUserNameFromId($userid);
+        $str .= getUserNameFromId($userid);
     }
-    echo '</a>';
+    $str .= '</a>';
+    return $str;
 }
 
 //Returns whether user is logged in or not
@@ -99,13 +108,16 @@ function getRole()
     }
 }
 
-//Returns true if the current user is an admin or a mod, false if not
-function isAdminOrMod()
+//Returns true if the given user is an admin or a mod, false if not
+//$userid: user ID
+function isAdminOrMod($userid = 0)
 {
-    if (isset($_SESSION['user']))
+    if ($userid == 0)
     {
-        return $_SESSION['user']['role'] == "mod" || $_SESSION['user']['role'] == "admin";
+        $userid = userid();
     }
+    $role = fetchColumn("SELECT role FROM users WHERE id=$userid");
+    return ($role == "admin") || ($role == "mod");
 }
 
 //Returns true if user is an admin
@@ -236,7 +248,7 @@ function fetchAll($query)
     }
     catch(PDOException $ex)
     {
-        die("Failed to run query: " . $ex->getMessage());
+        die("An error occurred: " . $ex->getMessage());
     }
 
     return $stmt->fetchAll();
@@ -256,7 +268,7 @@ function fetch($query)
     }
     catch(PDOException $ex)
     {
-        die("Failed to run query: " . $ex->getMessage());
+        die("An error occurred: " . $ex->getMessage());
     }
 }
 
@@ -280,7 +292,7 @@ function fetchColumn($query)
     }
     catch(PDOException $ex)
     {
-        die("Failed to run query: " . $ex->getMessage());
+        die("An error occurred: " . $ex->getMessage());
     }
 
     return $stmt->fetchColumn();
@@ -299,7 +311,7 @@ function execute($query)
     } 
     catch(PDOException $ex) 
     {
-        die("Failed to run query: " . $ex->getMessage()); 
+        die("An error occurred: " . $ex->getMessage()); 
     }
 }
 
@@ -317,7 +329,7 @@ function executeWithParams($query, $params)
     } 
     catch(PDOException $ex) 
     {
-        die("Failed to run query: " . $ex->getMessage()); 
+        die("An error occurred: " . $ex->getMessage()); 
     }
 }
 
@@ -451,6 +463,15 @@ function getPositionStrFromName($name)
     return $names[$id];
 }
 
+//Returns a label corresponding to a position, based on the given position name.
+//$name: position name
+function getPositionLabelFromName($name)
+{
+    $id = getPositionIDFromName($name);
+    $names = array(0=>"Top", 1=>"Jungle", 2=>"Mid", 3=>"ADC", 4=>"Support", 5=>"Sub Top", 6=>"Sub Jungle", 7=>"Sub Mid", 8=>"Sub ADC", 9=>"Sub Support");
+    return $names[$id];
+}
+
 //Returns time slot based on index
 //$id: index
 function timeSlotToTime($id)
@@ -491,7 +512,7 @@ function isManager($id = 0)
 
 //Returns true if given user is caster, false if not
 //$id: user id, defaults to current user
-function isCaster()
+function isCaster($id = 0)
 {
     if ($id == 0)
     {
@@ -611,6 +632,7 @@ function removePost($pid, $cid)
             SET removed=1 
             WHERE commentid=" . $cid
         ;
+        echo $query;
         execute($query);
     }
 }
@@ -808,6 +830,43 @@ function getSummonerRank($id)
     }
 }
 
+//Returns true if current user is the captain of the given team ID
+//$teamID: team ID
+function isCaptainOf($teamID)
+{
+    $query = "SELECT captain FROM rosters WHERE teamID=$teamID";
+    $captain = fetchColumn($query);
+    return userID() == $captain;
+}
+
+//Returns a readable string displaying a team's record
+//$teamID: team ID
+function getRecordStr($teamID)
+{
+    $query = "SELECT `w`,`d`,`l` FROM standings WHERE teamID = $teamID";
+    $record = fetchRow($query);
+    return $record['w'] . "W - " . $record['d'] . "D - " . $record['l'] . "L";
+}
+
+//Returns the first letter of a string, ignoring words like "The" and "Team"
+//$str: string
+function getActualFirstLetter($str)
+{
+    $words = array("The", "Team", "TMG");
+    foreach ($words as $word)
+    {
+        $str = str_replace($word . " ", "", $str);
+    }
+    return substr($str, 0, 1);
+}
+
+//Returns the path to the given letter icon
+//$letter: letter
+function getLetterIconUrl($letter)
+{
+    return "images/letters/" . $letter . ".png";
+}
+
 header('Content-Type: text/html; charset=utf-8'); //set header
 
 session_start(); //start session
@@ -824,7 +883,7 @@ if (loggedIn())
         //The user is on any other page: check if he's suspended
         if (isSuspended())
         {
-            redirect('suspended.php'); //Redirect to suspended page
+            redirect($_SERVER['DOCUMENT_ROOT'] . 'suspended.php'); //Redirect to suspended page
         }
     }
 }

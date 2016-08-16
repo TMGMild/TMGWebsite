@@ -12,7 +12,8 @@ function sendUpdate(updaterID, msg)
 function addTeam()
 {
     var name = document.getElementById('newTeamName').value;
-    sendAjax("updateteams.php?mode=0&teamid=0&name=" + name);
+    var url = "updateteams.php?mode=0&teamid=0&name=" + name;
+    sendAjax(url);
 
     var table = document.getElementById("teams");
     var url = "functions.php?f=getHighestTeamId";
@@ -35,7 +36,6 @@ function addTeam()
 
 function removeTeam(teamID)
 {
-    console.log(teamID);
     sendAjax("updateteams.php?mode=1&teamid=" + teamID);
 
     //remove table row
@@ -214,15 +214,14 @@ function deleteReport(id)
 
 function act(reportid, time)
 {
-    var updater = document.getElementById("updater");
     var url = "act.php?reportid=" + reportid + "&time=" + time;
-    updater.style.display = "block";
-    updater.innerHTML = "Deleting post and suspending user for " + time + " days...";
+    console.log(url);
+    
+    sendUpdate("updater", "Deleting post and suspending user for " + time + " days...");
     $("#" + reportid).hide();
     $.ajax({
         url: url, type: "post", success: function () {
             deleteReport(reportid);
-            $(updater).fadeOut(2000);
             $("#" + reportid).hide();
         }
     })
@@ -282,12 +281,8 @@ function toggleMove(id)
     }
 }
 
-function updateCaptain(teamID, newUsername) {
-    /*newCaptain = document.getElementById('captain' + teamID).value;
-    var url = "updateteams.php?mode=2&teamid=" + teamID + "&captain=" + newCaptain;
-    sendAjax(url);
-    sendUpdate('teamsUpdater', 'Captain has been successfully changed to ' + newCaptain + '.');*/
-
+function updateCaptain(teamID, newUsername) 
+{
     var url = "functions.php?f=userExistsByUsername&username=" + newUsername;
     $.ajax({
         url: url, type: "GET", success: function (result) {
@@ -308,6 +303,139 @@ function updateCaptain(teamID, newUsername) {
                     }
                 })
             }
+        }
+    })
+}
+
+function loadSchedule(id)
+{
+    if (id == null)
+    {
+        id = 1;
+    }
+    var schedule = document.getElementById("schedule");
+    var url = "functions.php?f=displaySchedule&id=" + id;
+    $.ajax({
+        url: url, type: "GET", success: function (response) {
+            document.getElementById("scheduleID").value = id;
+            schedule.innerHTML = response;
+        }
+    })
+    
+    var backArrow = document.getElementById("backArrow");
+    var forwardArrow = document.getElementById("forwardArrow");
+    
+    if (id == 1)
+        {
+            backArrow.style.display = "none";
+        }
+    else
+        {
+            backArrow.style.display = "block";
+        }
+    
+    if (id == Number(document.getElementById("maxID").value))
+        {
+            forwardArrow.style.display = "none";
+        }
+    else
+        {
+            forwardArrow.style.display = "block";
+        }
+}
+
+function loadPrevSchedule()
+{
+    var id = document.getElementById("scheduleID").value;
+    loadSchedule(id - 1);
+}
+
+function loadNextSchedule()
+{
+    var id = Number(document.getElementById("scheduleID").value);
+    loadSchedule(id + 1);
+}
+
+function loadStaff()
+{
+    var url = "functions.php?f=loadStaff";
+    $.ajax({
+        url: url, type: "get", success: function (response) {
+            var table = document.getElementById("staff");
+            table.innerHTML = response;
+        }
+    })
+}
+
+function changeStaffMember(currentID, newStaff)
+{
+    var url = "functions.php?f=userExistsByUsername&username=" + newStaff.value;
+    $.ajax({
+        url: url, type: "GET", success: function (result) {
+            if (result == "false")
+            {
+                $(newStaff).removeClass("green");
+                $(newStaff).addClass("red");
+            }
+            else
+            {
+                $(newStaff).addClass("green");
+                var url = "adminfunctions.php?f=changeStaff&old=" + currentID + "&new=" + newStaff.value;
+                $.ajax({
+                    url: url, type: "GET", success: function (response) {
+                        $("#updater").removeClass("red");
+                        $("#updater").addClass("green");
+                        sendUpdate("updater", "Staff member successfully changed to " + newStaff.value + ".");
+                        $(newStaff).removeClass("green");
+                        $(newStaff).removeClass("red");
+                    }
+                })
+            }
+        }
+    })
+}
+
+function changeStaffPosition(currentID, newPosition)
+{
+    var url = "adminfunctions.php?f=changeStaffPosition&id=" + currentID + "&new=" + newPosition.value;
+    $.ajax({url: url, type: "POST"})
+}
+
+function newStaff()
+{
+    var newStaffName = $("#newStaffName").val();
+    var newStaffPos = $("#newStaffPosition").val();
+    var url = "functions.php?f=userExistsByUsername&username=" + newStaffName;
+    $.ajax({
+        url: url, type: "GET", success: function (result) {
+            if (result == "false")
+            {
+                $("#updater").removeClass("green");
+                $("#updater").addClass("red");
+                sendUpdate("updater", "The username you entered does not exist.");
+            }
+            else
+            {
+                $("#updater").removeClass("red");
+                $("#updater").addClass("green");
+                var url = "adminfunctions.php?f=newStaff&name=" + newStaffName + "&pos=" + newStaffPos;
+                console.log(url);
+                $.ajax({
+                    url: url, type: "post", success: function() {
+                        loadStaff();
+                    }
+                })
+            }
+        }
+    })
+}
+
+function changeTeamLogo(teamID, newTeamLogo)
+{
+    var url = "functions.php?f=changeTeamLogo&teamID=" + teamID + "&logo=" + newTeamLogo;
+    $.ajax({
+        url: url, type: "post", success: function () {
+            sendUpdate("teamUpdater", "Your team logo has successfully been changed.");
         }
     })
 }

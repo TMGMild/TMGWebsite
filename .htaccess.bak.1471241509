@@ -1,0 +1,9 @@
+# Use PHPBETACGI as default
+AddHandler fcgidbeta-script .php
+AddHandler application/x-httpd-php56 .php
+
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
+ErrorDocument 403 /403.php
+ErrorDocument 401 /401.php
+ErrorDocument 400 /400.php

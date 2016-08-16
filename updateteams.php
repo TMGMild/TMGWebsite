@@ -18,6 +18,9 @@ if ($mode == 0)
             VALUES ('$newTeamName');
             ";
     execute($query);
+    $teamID = fetchColumn("SELECT MAX(teamID) FROM rosters");
+    $query = "INSERT INTO standings VALUES($teamID, 0,0,0)";
+    execute($query);
     sendUpdate('Welcome ' . $newTeamName . ' to the League!');
 }
 else if ($mode == 1)
@@ -26,6 +29,8 @@ else if ($mode == 1)
     $teamName = getTeamNameFromTeamID($teamID);
     $query = "DELETE FROM rosters
             WHERE `teamID` = $teamID";
+    execute($query);
+    $query = "DELETE FROM standings WHERE `teamID` = $teamID";
     execute($query);
     sendUpdate( $teamName . ' has dropped from the League.');
 }

@@ -1,5 +1,6 @@
 <h2>Select Casters</h2>
 <hr>
+<div class="updater green" id="chooseCastersUpdater"></div>
 <form action="chooseCasters.php" method="post">
     <table>
             <?php
@@ -54,5 +55,5 @@
             }
             ?>
     </table>
-    <input type="submit" class="submit" value="Save">
+    <input type="submit" class="right margin" value="Save">
 </form>

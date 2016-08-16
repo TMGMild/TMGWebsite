@@ -21,26 +21,22 @@ $rows = fetchAll($query);
             <div class="content">
                 <h1><?php echo $teamName; ?></h1>
                 <hr>
-                <div class="left">
+                <div class="layout two">
                     <h2>Roster</h2><hr>
-                    <div class="left" style="text-align:right;line-height:275%;width:30%;">
-                    <?php foreach(getRosterFromTeamID($teamID) as $position => $player):?>
-                        <?php 
-                        echo '<span class="label">' . str_replace("main", "Main ", str_replace("sub", "Sub ", $position)) . '</span>';
-                        ?>
-                        <br>
-                    <?php endforeach; ?>
-                    </div>
-                    <div class="right" style="width:60%;float:left;">
-                    <?php foreach(getRosterFromTeamID($teamID) as $position => $player):?>
-                        <?php 
-                        echo '<span class="value">' . $player . '</span>'; 
-                        ?>
-                        <br>
-                    <?php endforeach; ?>
-                    </div>
+                    <table>
+                    <?php 
+                    foreach(getRosterFromTeamID($teamID) as $position => $player) 
+                    {
+                        echo 
+                        '<tr>
+                            <td style="text-align:right;width:30%;font-size:20px;font-weight:100;">' . getPositionLabelFromName($position) . '</td>
+                            <td style="font-size:26px;font-weight:100;"><a href="profile.php?id=' . $player . '">' . getUsernameFromId($player) . '</a></td>
+                        </tr>';
+                    } 
+                    ?>
+                    </table>
                 </div>
-                <div class="right">
+                <div class="layout two">
                     <h2>Recent Updates</h2><hr>
                     <table>
                         <?php foreach ($rows as $row)

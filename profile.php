@@ -36,7 +36,7 @@ $posts = fetchAll("SELECT * FROM posts WHERE authorid=$id AND removed=0 LIMIT 6"
             <div class="content">
                 <span style="font-size:100px;font-weight:100;"><?php echo $username;?></span> &nbsp;&nbsp;&nbsp; 
                 <span style="font-size:28px;font-weight:100;">
-                    <?php echo getSummonerRank($summonerid);?>
+                    <?php echo getSummonerRank($summonerid);?> &bull;
                     <?php echo $teamName; ?> &bull; 
                     <?php echo ucfirst($role);?>
                     <?php if ($manager) { echo ' &bull; League Manager'; } ?>

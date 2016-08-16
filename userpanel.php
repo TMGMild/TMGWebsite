@@ -38,17 +38,17 @@ if (isset($_REQUEST['q']))
                     $output .= " />Manager</label>
                 </td>
                 <td>
-                    <input onclick='toggleColumn(\"writer\", " . $result['id'] . ", this.checked)' type='checkbox'";
+                    <label><input onclick='toggleColumn(\"writer\", " . $result['id'] . ", this.checked)' type='checkbox'";
                     if ($result['writer'] == 1) {$output .= " checked";}
                     $output .= " />Writer</label>
                 </td>
                 <td>
-                    <input onclick='toggleColumn(\"caster\", " . $result['id'] . ", this.checked)' type='checkbox'";
+                    <label><input onclick='toggleColumn(\"caster\", " . $result['id'] . ", this.checked)' type='checkbox'";
                     if ($result['caster'] == 1) {$output .= " checked";}
                     $output .= " />Caster</label>
                 </td>
                 <td>
-                    <input onclick='toggleColumn(\"streamer\", " . $result['id'] . ", this.checked)' type='checkbox'";
+                    <label><input onclick='toggleColumn(\"streamer\", " . $result['id'] . ", this.checked)' type='checkbox'";
                     if ($result['streamer'] == 1) {$output .= " checked";}
                     $output .= " />Streamer</label>
                 </td>

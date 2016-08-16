@@ -19,15 +19,16 @@ $articles = fetchAll($query);
             <div class="content">
                 <h1 style="font-size:80px;font-weight:300;">TRUE MINDED GAMING</h1>
                 <hr>
-                <?php                
+                <?php
                 if (date('H') > 12 && date('H') < 20 && (date('w') == 6 || date('w') == 0)) { ?>
-                    <div class="left bare">
+                    <div class="layout two" style="padding:0;margin:0;width:70%;" id="playerParent">
                         <script src= "http://player.twitch.tv/js/embed/v1.js"></script>
                         <div id="{PLAYER_DIV_ID}"></div>
                         <script type="text/javascript">
+                            var playerParent = document.getElementById("playerParent");
                             var options = {
-                                width: 1150,
-                                height: 647,
+                                width: playerParent.offsetWidth,
+                                height: playerParent.offsetWidth * 0.5625,
                                 channel: "truemindedgaming", 
                                 //video: "{VIDEO_ID}"       
                             };
@@ -35,19 +36,23 @@ $articles = fetchAll($query);
                             player.setVolume(0.5);
                         </script>
                     </div>
-                    <div class="right bare" style="width:406px;background-color:white;">    
-                        <iframe frameborder="0" scrolling="no" src="http://twitch.tv/truemindedgaming/chat?popout=" height="647" width="406">
+                    <div class="layout two" style="padding:0;margin:0;width:30%;">    
+                        <iframe frameborder="0" scrolling="no" src="http://twitch.tv/truemindedgaming/chat?popout=" style="width:100%;" id="chat">
                         </iframe>
                     </div>
+                    <script>
+                    var chat = document.getElementById("chat");
+                    chat.height = (playerParent.offsetWidth * 0.56525) + 3;
+                    </script>
                     <hr>
                 <?php   
                 }
                 ?>
-                <div class="news">
+                <div>
                     <?php
                     foreach ($articles as $article)
                     {?>
-                        <div class="slider">
+                        <div class="layout news">
                             <a href="article.php?id=<?php echo $article['id'];?>"><img src="<?php echo $article['image'];?>" alt="">
 		                    <div id="group">
 			                    <div id="title"><?php echo $article["title"];?></div>

@@ -77,6 +77,32 @@ function changeCategoryDesc()
     execute($query);
 }
 
+function changeStaff()
+{
+    $oldid = $_REQUEST['old'];
+    $newUsername = $_REQUEST['new'];
+    $newid = getUserIdFromUsername($newUsername);
+    $query = "UPDATE staff SET id=$newid WHERE id=$oldid";
+    execute($query);
+}
+
+function changeStaffPosition()
+{
+    $id = $_REQUEST['id'];
+    $new = $_REQUEST['new'];
+    $query = "UPDATE staff SET positions='$new' WHERE id=$id";
+    execute($query);
+}
+
+function newStaff()
+{
+    $name = $_REQUEST['name'];
+    $id = getUserIdFromUsername($name);
+    $pos = $_REQUEST['pos'];
+    $query = "INSERT INTO staff VALUES($id, '$pos')";
+    execute($query);
+}
+
 $result = $function();
 echo $result;
 ?>
